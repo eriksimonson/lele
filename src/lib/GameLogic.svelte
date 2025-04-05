@@ -38,6 +38,9 @@
 
    export const getCategories = (): (keyof Game)[] => {
     return categories;
-   }
- 
+  }
+
+  export const getDayId = (): Number => {
+    return daysSince1970;
+  }
  </script>

@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Games, Game } from "./GameLogic.svelte";
-  import { getGames, getCorrectGame, getCategories } from "./GameLogic.svelte";
+  import { getGames, getCorrectGame, getCategories, getDayId } from "./GameLogic.svelte";
   import Select from "./Select.svelte";
   import GameDisplay from "./GameDisplay.svelte";
   import Modal from './Modal.svelte';
@@ -9,9 +9,13 @@
   const choices: Games = getGames();
   const categories: (keyof Game)[] = getCategories();
   const correctGame: Game = getCorrectGame();
-  let attempts: Game[] = [];
-  let hasWon = true;
-  $: hasWon = attempts.at(0) === correctGame;
+  const dayId: Number = getDayId();
+  const localStorageId = `attemptsDay${dayId}`;
+  const savedAttempts = JSON.parse(localStorage.getItem(localStorageId) || '[]');
+  let attempts: Game[] = [...savedAttempts];
+
+  let hasWon = false;
+  $: hasWon = JSON.stringify(attempts.at(0)) === JSON.stringify(correctGame);
   let gameOver = false;
   $: gameOver = hasWon || attempts.length >= maxAttempts;
 
@@ -35,7 +39,10 @@
     items={Object.fromEntries(
       Object.entries(choices).filter(([_, game]) => !attempts.includes(game)),
     )}
-    callback={(selected) => (attempts = [selected, ...attempts])}
+    callback={(selected) => {
+      attempts = [selected, ...attempts];
+      localStorage.setItem(localStorageId, JSON.stringify(attempts));
+    }}
     {categories}
     disabled={hasWon}
   />

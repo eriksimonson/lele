@@ -40,10 +40,10 @@
     }
 
     .modal-content {
-        background: white;
         padding: 20px;
         border-radius: 10px;
         min-width: 300px;
         text-align: center;
+        background-color: var(--bg-color);
     }
 </style>
