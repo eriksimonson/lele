@@ -10,7 +10,7 @@
 {#if showModal}
     <div class="modal-overlay">
         <div class="modal-content">
-            <h3>{isWin ? "You Won": "You Lost"}</h3>
+            <h3>{isWin ? "You Won" : "You Lost"}</h3>
             <p>After {attempts.length} guesses.</p>
             {#each attempts as attempt}
                 {#each categories as category}
@@ -20,8 +20,15 @@
                             : "⬛️"}
                     </span>
                 {/each}
-                <br>
+                <br />
             {/each}
+            <p>
+                Today's answer was: <a
+                    href={correctGame.website}
+                    target="_blank"
+                    rel="noreferrer">{correctGame.name}</a
+                >
+            </p>
         </div>
     </div>
 {/if}
