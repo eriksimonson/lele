@@ -44,7 +44,7 @@
       localStorage.setItem(localStorageId, JSON.stringify(attempts));
     }}
     {categories}
-    disabled={hasWon}
+    disabled={gameOver}
   />
 
   <div class="attempts-container">
