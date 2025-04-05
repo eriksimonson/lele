@@ -3,7 +3,6 @@
     export let game: Game;
     export let categories: (keyof Game)[] = [];
     export let correctGame: Game | undefined = undefined;
-    console.log(game);
 </script>
 
 <div class="row">
@@ -17,15 +16,3 @@
         </div>
     {/each}
 </div>
-
-<style>
-    .correct {
-        background-color: green;
-        color: white;
-    }
-
-    .incorrect {
-        background-color: black;
-        color: white;
-    }
-</style>

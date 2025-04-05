@@ -5,12 +5,13 @@
     export let items: Games;
     export let categories: (keyof Game)[];
     export let callback: (item: Game) => void;
+    export let disabled: boolean = false;
 
     let searchText: string = "";
 
     let filteredItems: string[] = Object.keys(items);
     $: filteredItems = Object.keys(items).filter((item) =>
-        item.toLowerCase().includes(searchText.toLowerCase()),
+        item.toLowerCase().startsWith(searchText.toLowerCase()),
     );
 
     function selectItem(item: string) {
@@ -33,6 +34,7 @@
         placeholder="Search games..."
         aria-label="Search games"
         on:keydown={handleEnterKey}
+        disabled={disabled}
     />
 
     {#if filteredItems.length > 0 && searchText && searchText != filteredItems.at(0)}
@@ -41,9 +43,6 @@
             <div class="dropdown-item" on:click={() => selectItem(item)}>
                 <GameDisplay game={items[item]} {categories}/>
             </div>
-                <!-- <button type="button" class="dropdown-item" on:click={() => selectItem(item)}>
-                    {item}
-                </button> -->
             {/each}
         </div>
     {/if}
@@ -66,10 +65,10 @@
         top: 100%;
         left: 0;
         right: 0;
-        max-height: 150px;
+        max-height: 250px;
         overflow-y: auto;
         border: 1px solid #ccc;
-        background-color: white;
+        background-color: #345;
         z-index: 10;
         box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
         display: flex;

@@ -1,0 +1,416 @@
+{
+    "Wordle": {
+      "name": "Wordle",
+      "website": "https://www.nytimes.com/games/wordle/index.html", 
+      "releaseYear": "2021",
+      "maxAttempts": 6,
+      "category": "Word",
+      "userInput": "Word",
+      "difficultyLevel": "Medium"
+    },
+    "Dordle": {
+        "name": "Dordle",
+        "website": "https://zaratustra.itch.io/dordle", 
+        "releaseYear": "2022",
+        "maxAttempts": 7,
+        "category": "Word",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Quordle": {
+        "name": "Quordle",
+        "website": "https://www.merriam-webster.com/games/quordle/#/", 
+        "releaseYear": "2022",
+        "maxAttempts": 9,
+        "category": "Word",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Octordle": {
+        "name": "Octordle",
+        "website": "https://octordle.com/?mode=daily", 
+        "releaseYear": "2022",
+        "maxAttempts": 13,
+        "category": "Word",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Sedecordle": {
+        "name": "Sedecordle",
+        "website": "https://www.sedecordle.com/?mode=daily", 
+        "releaseYear": "2022",
+        "maxAttempts": 21,
+        "category": "Word",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Waffle": {
+        "name": "Waffle",
+        "website": "https://wafflegame.net/daily", 
+        "releaseYear": "2023",
+        "maxAttempts": 15,
+        "category": "Word",
+        "userInput": "Drag and Drop",
+        "difficultyLevel": "Medium"
+    },
+    "Sweardle": {
+        "name": "Sweardle",
+        "website": "https://sweardle.com/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Word",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Woodle": {
+        "name": "Woodle",
+        "website": "https://play.woodle.today/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Word",
+        "userInput": "Word",
+        "difficultyLevel": "Hard"
+    },
+    "Revertle" : {
+        "name": "Revertle",
+        "website": "https://www.puppetsquid.com/revertle/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Word",
+        "userInput": "Word",
+        "difficultyLevel": "Hard"
+    },
+    "Moistle": {
+        "name": "Moistle",
+        "website": "https://samperisi.com/moistle/", 
+        "releaseYear": "2024",
+        "maxAttempts": 6,
+        "category": "Word",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },  
+    "Semantle": {
+        "name": "Semantle",
+        "website": "https://semantle.com/", 
+        "releaseYear": "2022",
+        "maxAttempts": -1,
+        "category": "Word",
+        "userInput": "Word",
+        "difficultyLevel": "Hard"
+    },
+    "Crosswordle": {
+        "name": "Crosswordle",
+        "website": "https://crosswordle.serializer.ca/", 
+        "releaseYear": "2022",
+        "maxAttempts": -1,
+        "category": "Word",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Squareword": {
+        "name": "Squareword",
+        "website": "https://squareword.org/", 
+        "releaseYear": "2022",
+        "maxAttempts": -1,
+        "category": "Word",
+        "userInput": "Word",
+        "difficultyLevel": "Low"
+    },
+    "Reversle": {
+        "name": "Reversle",
+        "website": "https://reversle.net/", 
+        "releaseYear": "2022",
+        "maxAttempts": -1,
+        "category": "Word",
+        "userInput": "Word",
+        "difficultyLevel": "Hard"
+    },
+    "Absurdle": {
+        "name": "Absurdle",
+        "website": "https://qntm.org/absurdle", 
+        "releaseYear": "2022",
+        "maxAttempts": -1,
+        "category": "Word",
+        "userInput": "Word",
+        "difficultyLevel": "Hard"
+    },
+    "Heardle": {
+        "name": "Heardle",
+        "website": "https://heardlewordle.io/", 
+        "releaseYear": "2023",
+        "maxAttempts": 6,
+        "category": "Music",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Taylordle": {
+        "name": "Taylordle",
+        "website": "https://taylordle.org/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Music",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Swiftle": {
+        "name": "Swiftle",
+        "website": "https://www.techyonic.co/swiftle", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Music",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Byrdle": {
+        "name": "Byrdle",
+        "website": "https://www.byrdle.net/", 
+        "releaseYear": "2022",
+        "maxAttempts": 7,
+        "category": "Music",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Worldle": {
+        "name": "Worldle",
+        "website": "https://worldle.teuteuf.fr/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Geography",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Globle": {
+        "name": "Globle",
+        "website": "https://globle-game.com/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Geography",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Citydle": {
+        "name": "Citydle",
+        "website": "https://citydle.com/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Geography",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Nerdle": {
+        "name": "Nerdle",
+        "website": "https://nerdlegame.com/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Math",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Mathle": {
+        "name": "Mathle",
+        "website": "https://mathle.net/", 
+        "releaseYear": "2022",
+        "maxAttempts": 5,
+        "category": "Math",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Mathler": {
+        "name": "Mathler",
+        "website": "https://www.mathler.com/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Math",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Primel": {
+        "name": "Primel",
+        "website": "https://converged.yt/primel/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Math",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Lordle of the Rings" : {
+        "name": "Lordle of the Rings",
+        "website": "https://lordle.digitaltolkien.com/", 
+        "releaseYear": "2023",
+        "maxAttempts": 6,
+        "category": "Movies",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Swordle": {
+        "name": "Swordle",
+        "website": "https://wordle.starwars.guide/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Movies",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Star Wordle": {
+        "name": "Star Wordle",
+        "website": "https://www.starwordle.com/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Movies",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Squirdle": {
+        "name": "Squirdle",
+        "website": "https://squirdle.fireblend.com/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Games",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Poetl": {
+        "name": "Poetl",
+        "website": "https://poeltl.nbpa.com/landing-page", 
+        "releaseYear": "2022",
+        "maxAttempts": 8,
+        "category": "Sports",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Pickle": {
+        "name": "Pickle",
+        "website": "https://picklewordle.com/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Sports",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "CFBordle": {
+        "name": "CFBordle",
+        "website": "https://cfbordle.redditcfb.com/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Sports",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Football Wordle": {
+        "name": "Football Wordle",
+        "website": "https://footballwordle.com/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Sports",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Who are Ya?": {
+        "name": "Who are Ya?",
+        "website": "https://playfootball.games/who-are-ya", 
+        "releaseYear": "2022",
+        "maxAttempts": 8,
+        "category": "Sports",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Factle": {
+        "name": "Factle",
+        "website": "https://factle.app/", 
+        "releaseYear": "2022",
+        "maxAttempts": 5,
+        "category": "Trivia",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Learnle": {
+        "name": "Learnle",
+        "website": "https://learnle.net/", 
+        "releaseYear": "2022",
+        "maxAttempts": 5,
+        "category": "Trivia",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Quizl": {
+        "name": "Quizl",
+        "website": "https://quizl.io/", 
+        "releaseYear": "2022",
+        "maxAttempts": 0,
+        "category": "Trivia",
+        "userInput": "Muliple Choice",
+        "difficultyLevel": "Medium"
+    },
+    "Yeardle": {
+        "name": "Yeardle",
+        "website": "https://histordle.com/yeardle/", 
+        "releaseYear": "2022",
+        "maxAttempts": 8,
+        "category": "Trivia",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Hexle": {
+        "name": "Hexle",
+        "website": "https://frankljin.github.io/hexle/  ", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Other",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Disorderly": {
+        "name": "Disorderly",
+        "website": "https://playdisorderly.com/", 
+        "releaseYear": "2024",
+        "maxAttempts": -1,
+        "category": "Other",
+        "userInput": "Sorting",
+        "difficultyLevel": "Easy"
+    },
+    "Tradle": {
+        "name": "Tradle",
+        "website": "https://games.oec.world/en/tradle/", 
+        "releaseYear": "2023",
+        "maxAttempts": 6,
+        "category": "Economics",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Guess The.Game": {
+        "name": "Guess The.Game",
+        "website": "https://guessthe.game/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Games",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Gamedle": {
+        "name": "Gamedle",
+        "website": "https://www.gamedle.wtf/", 
+        "releaseYear": "2022",
+        "maxAttempts": 6,
+        "category": "Games",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Contexto": {
+        "name": "Contexto",
+        "website": "https://contexto.me/", 
+        "releaseYear": "2022",
+        "maxAttempts": -1,
+        "category": "Word",
+        "userInput": "Word",
+        "difficultyLevel": "Medium"
+    },
+    "Connections": {
+        "name": "Connections",
+        "website": "https://www.nytimes.com/games/connections", 
+        "releaseYear": "2023",
+        "maxAttempts": 4,
+        "category": "Word",
+        "userInput": "Pick",
+        "difficultyLevel": "Medium"
+    }
+}

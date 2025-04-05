@@ -3,11 +3,17 @@
   import { getGames, getCorrectGame, getCategories } from "./GameLogic.svelte";
   import Select from "./Select.svelte";
   import GameDisplay from "./GameDisplay.svelte";
+  import Modal from './Modal.svelte';
 
+  const maxAttempts = 10;
   const choices: Games = getGames();
   const categories: (keyof Game)[] = getCategories();
   const correctGame: Game = getCorrectGame();
   let attempts: Game[] = [];
+  let hasWon = true;
+  $: hasWon = attempts.at(0) === correctGame;
+  let gameOver = false;
+  $: gameOver = hasWon || attempts.length >= maxAttempts;
 
   const formatCategoryName = (category: string): string => {
     return category
@@ -17,7 +23,7 @@
 </script>
 
 <main>
-  
+    <p>{attempts.length} of {maxAttempts}</p>
     <div class="row header-row">
       {#each categories as category}
         <div class="cell header-cell">
@@ -31,6 +37,7 @@
     )}
     callback={(selected) => (attempts = [selected, ...attempts])}
     {categories}
+    disabled={hasWon}
   />
 
   <div class="attempts-container">
@@ -47,6 +54,7 @@
       </div>
     {/each}
   </div>
+  <Modal showModal={gameOver} {attempts} {correctGame} {categories} isWin={hasWon} />
 </main>
 
 <style>
