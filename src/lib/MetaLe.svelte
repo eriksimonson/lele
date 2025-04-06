@@ -27,7 +27,7 @@
 </script>
 
 <main>
-    <p>{attempts.length} of {maxAttempts}</p>
+    <p>Guess {attempts.length} of {maxAttempts}</p>
     <div class="row header-row">
       {#each categories as category}
         <div class="cell header-cell">

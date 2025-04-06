@@ -12,7 +12,7 @@
                 ? 'correct'
                 : 'incorrect') : ''}"
         >
-            {game[category]}
+            {game[category] === -1 ? "∞" : game[category]}
         </div>
     {/each}
 </div>
