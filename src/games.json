@@ -10,7 +10,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Unscramble 23 words, one by one, without running out of time.",
+    "description": "Unscramble 23 words, 1 by one, without running out of time.",
     "userInputConfidence": 1
   },
   "Absurdle": {
@@ -190,7 +190,7 @@
       "music"
     ],
     "userInput": "Word",
-    "description": "Guess the song, one instrument at a time (sort of).",
+    "description": "Guess the song, 1 instrument at a time (sort of).",
     "userInputConfidence": 0.5
   },
   "Betweenle": {
@@ -242,7 +242,7 @@
       "movies"
     ],
     "userInput": "Word",
-    "description": "Guess the top five movies in the US domestic box office for the given weekend.",
+    "description": "Guess the top 5 movies in the US domestic box office for the given weekend.",
     "userInputConfidence": 1
   },
   "BracketCity": {
@@ -407,7 +407,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Make a chain linking two words together by changing one letter and making an anagram at each step.",
+    "description": "Make a chain linking 2 words together by changing 1 letter and making an anagram at each step.",
     "userInputConfidence": 0.8
   },
   "Chess.comDailyPuzzle": {
@@ -474,7 +474,7 @@
       "time"
     ],
     "userInput": "Pick",
-    "description": "One by one, place each historical event in the correct spot on the timeline without making 5 mistakes.",
+    "description": "1 by one, place each historical event in the correct spot on the timeline without making 5 mistakes.",
     "userInputConfidence": 0.5
   },
   "Chronophoto": {
@@ -530,7 +530,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Place words into the empty boxes so that each connection of two words make a compound word.",
+    "description": "Place words into the empty boxes so that each connection of 2 words make a compound word.",
     "userInputConfidence": 0.8
   },
   "Clickword": {
@@ -1192,7 +1192,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Wordle but it lies to you.  (Like Lirdle)",
+    "description": "Wordle but it lies to you. (Like Lirdle)",
     "userInputConfidence": 1
   },
   "Figure": {
@@ -1261,7 +1261,7 @@
       "geography"
     ],
     "userInput": "Word",
-    "description": "Guess the hidden flag in six guesses, revealing where your guess overlaps with the solution after each try.",
+    "description": "Guess the hidden flag in 6 guesses, revealing where your guess overlaps with the solution after each try.",
     "userInputConfidence": 1
   },
   "Flickle": {
@@ -1288,7 +1288,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Transform the starting word to the target word by changing one letter at a time",
+    "description": "Transform the starting word to the target word by changing 1 letter at a time",
     "userInputConfidence": 0.8
   },
   "Foodguessr": {
@@ -1991,7 +1991,7 @@
       "geography"
     ],
     "userInput": "Word",
-    "description": "For 5 rounds, guess which of the two regions better fits the given criteria.",
+    "description": "For 5 rounds, guess which of the 2 regions better fits the given criteria.",
     "userInputConfidence": 0.5
   },
   "Karat": {
@@ -2057,7 +2057,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Place the 8 letters in the circle to make two 5-letter words that share their first and last letters.",
+    "description": "Place the 8 letters in the circle to make 2 5-letter words that share their first and last letters.",
     "userInputConfidence": 0.56
   },
   "Letterset": {
@@ -2084,7 +2084,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Unjumble five words by inserting a unique vowel into each word.",
+    "description": "Unjumble 5 words by inserting a unique vowel into each word.",
     "userInputConfidence": 1
   },
   "Lex.gamesConlextions": {
@@ -2176,7 +2176,7 @@
       "logic"
     ],
     "userInput": "Number",
-    "description": "Link each pair of numbered points together in three daily puzzles.",
+    "description": "Link each pair of numbered points together in 3 daily puzzles.",
     "userInputConfidence": 1
   },
   "Linxicon": {
@@ -2189,7 +2189,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Connect two random words by creating a chain of new words that bridge the gap in their meanings.",
+    "description": "Connect 2 random words by creating a chain of new words that bridge the gap in their meanings.",
     "userInputConfidence": 1
   },
   "Lirdle": {
@@ -2427,7 +2427,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Solve the word or phrase by guessing one letter at a time.",
+    "description": "Solve the word or phrase by guessing 1 letter at a time.",
     "userInputConfidence": 0.6
   },
   "MlbPickle": {
@@ -2441,7 +2441,7 @@
       "sports"
     ],
     "userInput": "Word",
-    "description": "Guess today's mystery MLB player within nine guesses.",
+    "description": "Guess today's mystery MLB player within 9 guesses.",
     "userInputConfidence": 0.33
   },
   "More/less": {
@@ -2454,7 +2454,7 @@
       "trivia"
     ],
     "userInput": "Multiple Choice",
-    "description": "Decide which option has more or less, and keep going until you get one wrong. There are 3 categories to play.",
+    "description": "Decide which option has more or less, and keep going until you get 1 wrong. There are 3 categories to play.",
     "userInputConfidence": 1
   },
   "Morsle": {
@@ -2533,7 +2533,7 @@
       "movies"
     ],
     "userInput": "Drag and Drop",
-    "description": "Connect two movies by jumping through actors and the movies they've been in.",
+    "description": "Connect 2 movies by jumping through actors and the movies they've been in.",
     "userInputConfidence": 1
   },
   "Moviedle": {
@@ -2780,6 +2780,7 @@
       "words"
     ],
     "userInput": "Word",
+    "description": "Guess the 5-letter word in 6 or fewer attempts.",
     "userInputConfidence": 1
   },
   "Octordle": {
@@ -2806,7 +2807,7 @@
       "geography"
     ],
     "userInput": "Pick",
-    "description": "Form groups of four exported products that are associated with one of the given countries.",
+    "description": "Form groups of 4 exported products that are associated with 1 of the given countries.",
     "userInputConfidence": 1
   },
   "OecPick5": {
@@ -2977,7 +2978,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Reveal the phrase by guessing one letter at a time.",
+    "description": "Reveal the phrase by guessing 1 letter at a time.",
     "userInputConfidence": 0.75
   },
   "Picsey": {
@@ -3096,7 +3097,7 @@
       "video games"
     ],
     "userInput": "Word",
-    "description": "Fill out the grid with Pokémon matching the criteria of each cell's row and column.",
+    "description": "Fill out the grid with Pok\u00e9mon matching the criteria of each cell's row and column.",
     "userInputConfidence": 1
   },
   "Pokle": {
@@ -3135,7 +3136,7 @@
       "time"
     ],
     "userInput": "Word",
-    "description": "Guess the year given three pop culture items released that year.",
+    "description": "Guess the year given 3 pop culture items released that year.",
     "userInputConfidence": 1
   },
   "Primel": {
@@ -3148,7 +3149,7 @@
       "numbers"
     ],
     "userInput": "Word",
-    "description": "Guess the 5-digit prime number in six guesses or less.",
+    "description": "Guess the 5-digit prime number in 6 guesses or less.",
     "userInputConfidence": 0.5
   },
   "Puckdoku": {
@@ -3405,7 +3406,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Guess the word based on one of its synonyms, given a new synonym after each guess.",
+    "description": "Guess the word based on 1 of its synonyms, given a new synonym after each guess.",
     "userInputConfidence": 1
   },
   "Relatle.io": {
@@ -3418,7 +3419,7 @@
       "music"
     ],
     "userInput": "Pick",
-    "description": "Get from one musical artist to another by linking through related artists.",
+    "description": "Get from 1 musical artist to another by linking through related artists.",
     "userInputConfidence": 1
   },
   "RhymeTime": {
@@ -3431,7 +3432,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Guess the three words that all rhyme.",
+    "description": "Guess the 3 words that all rhyme.",
     "userInputConfidence": 1
   },
   "Rivadle": {
@@ -3640,7 +3641,7 @@
       "time"
     ],
     "userInput": "Word",
-    "description": "Guess the year given three songs that were released that year.",
+    "description": "Guess the year given 3 songs that were released that year.",
     "userInputConfidence": 1
   },
   "Songless": {
@@ -3787,7 +3788,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "A complex Wordle variant where your guesses count in two directions and cycle between three positions.",
+    "description": "A complex Wordle variant where your guesses count in 2 directions and cycle between 3 positions.",
     "userInputConfidence": 0.8
   },
   "Squaredle": {
@@ -3800,7 +3801,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Find all the hidden words in a grid by connecting letters horizontally, vertically, or diagonally. Two puzzles each day.",
+    "description": "Find all the hidden words in a grid by connecting letters horizontally, vertically, or diagonally. 2 puzzles each day.",
     "userInputConfidence": 0.6
   },
   "Squares": {
@@ -3878,7 +3879,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Build the tallest possible stack of words, swapping out one letter and scrambling the rest with each new word.",
+    "description": "Build the tallest possible stack of words, swapping out 1 letter and scrambling the rest with each new word.",
     "userInputConfidence": 0.8
   },
   "Statele": {
@@ -3907,7 +3908,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Solve 4 Wordle puzzles, one at a time, each word one letter longer than the last. You have 20 total guesses.",
+    "description": "Solve 4 Wordle puzzles, 1 at a time, each word 1 letter longer than the last. You have 20 total guesses.",
     "userInputConfidence": 0.62
   },
   "SummitGame": {
@@ -3921,7 +3922,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "With one clue to get you started, find the 5 interconnected words to complete the summit in the shortest time.",
+    "description": "With 1 clue to get you started, find the 5 interconnected words to complete the summit in the shortest time.",
     "userInputConfidence": 0.75
   },
   "Summle": {
@@ -4045,7 +4046,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Race from one Wikipedia page to the target page using as few links as possible",
+    "description": "Race from 1 Wikipedia page to the target page using as few links as possible",
     "userInputConfidence": 1
   },
   "Thirdle": {
@@ -4072,7 +4073,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Complete three words with the same three letters, three rounds everyday.",
+    "description": "Complete 3 words with the same 3 letters, 3 rounds everyday.",
     "userInputConfidence": 0.75
   },
   "Thrice": {
@@ -4156,7 +4157,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Topple the letter wall by finding four 5-letter words",
+    "description": "Topple the letter wall by finding 4 5-letter words",
     "userInputConfidence": 0.67
   },
   "Travle": {
@@ -4331,7 +4332,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Weave your way from the start word to the end word, changing only one letter at a time.",
+    "description": "Weave your way from the start word to the end word, changing only 1 letter at a time.",
     "userInputConfidence": 0.8
   },
   "Weddle": {
@@ -4392,7 +4393,7 @@
       "usa"
     ],
     "userInput": "Word",
-    "description": "Guess the location in the United States given 5 pictures of the same place, one at a time.",
+    "description": "Guess the location in the United States given 5 pictures of the same place, 1 at a time.",
     "userInputConfidence": 0.5
   },
   "Wheretaken": {
@@ -4434,7 +4435,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Find the keyword in the word search before running out of guesses. Three increasingly difficult puzzles everyday.",
+    "description": "Find the keyword in the word search before running out of guesses. 3 increasingly difficult puzzles everyday.",
     "userInputConfidence": 0.67
   },
   "WordBox": {
@@ -4460,7 +4461,7 @@
       "words"
     ],
     "userInput": "Word",
-    "description": "Connect the two unrelated words by adding a chain of related words between them.",
+    "description": "Connect the 2 unrelated words by adding a chain of related words between them.",
     "userInputConfidence": 1
   },
   "WordChase": {

@@ -5,7 +5,7 @@
     export let correctGame: Game | undefined = undefined;
 </script>
 
-<div class="row">
+<div class="row" title="{game.description || "No description available."}">
     {#each categories as category}
         <div
             class="cell {correctGame ? (game[category] == correctGame[category]
