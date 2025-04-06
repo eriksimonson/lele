@@ -24,7 +24,7 @@
     "TLD"
   ];
 
-  const allGames: Games = games as Games;
+  const allGames: Games = addTLDsToGames(games as Games);
 
   const timezoneOffset = new Date().getTimezoneOffset();
   const localTime = Date.now() - timezoneOffset * 60 * 1000;
@@ -50,7 +50,7 @@
   }
 
   export const getGames = (): Games => {
-    const leleGame: Game = {
+    const leleGame: Game = addTLD({
       name: "LeLe",
       website: "https://lele.bread.red/",
       releaseYear: "2025",
@@ -60,8 +60,8 @@
       userInputConfidence: 1.0,
       tags: ["word", "guess"],
       description: "A game where you guess daily guessing games.",
-    };
-    return addTLDsToGames({ ...allGames, leleGame });
+    });
+    return { ...allGames, leleGame};
   };
 
   export const getCorrectGame = (): Game => {
