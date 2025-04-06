@@ -1,416 +1,4947 @@
 {
-    "Wordle": {
-      "name": "Wordle",
-      "website": "https://www.nytimes.com/games/wordle/index.html", 
-      "releaseYear": "2021",
-      "maxAttempts": 6,
-      "category": "Word",
-      "userInput": "Word",
-      "difficultyLevel": "Medium"
-    },
-    "Dordle": {
-        "name": "Dordle",
-        "website": "https://zaratustra.itch.io/dordle", 
-        "releaseYear": "2022",
-        "maxAttempts": 7,
-        "category": "Word",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Quordle": {
-        "name": "Quordle",
-        "website": "https://www.merriam-webster.com/games/quordle/#/", 
-        "releaseYear": "2022",
-        "maxAttempts": 9,
-        "category": "Word",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Octordle": {
-        "name": "Octordle",
-        "website": "https://octordle.com/?mode=daily", 
-        "releaseYear": "2022",
-        "maxAttempts": 13,
-        "category": "Word",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Sedecordle": {
-        "name": "Sedecordle",
-        "website": "https://www.sedecordle.com/?mode=daily", 
-        "releaseYear": "2022",
-        "maxAttempts": 21,
-        "category": "Word",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Waffle": {
-        "name": "Waffle",
-        "website": "https://wafflegame.net/daily", 
-        "releaseYear": "2023",
-        "maxAttempts": 15,
-        "category": "Word",
-        "userInput": "Drag and Drop",
-        "difficultyLevel": "Medium"
-    },
-    "Sweardle": {
-        "name": "Sweardle",
-        "website": "https://sweardle.com/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Word",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Woodle": {
-        "name": "Woodle",
-        "website": "https://play.woodle.today/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Word",
-        "userInput": "Word",
-        "difficultyLevel": "Hard"
-    },
-    "Revertle" : {
-        "name": "Revertle",
-        "website": "https://www.puppetsquid.com/revertle/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Word",
-        "userInput": "Word",
-        "difficultyLevel": "Hard"
-    },
-    "Moistle": {
-        "name": "Moistle",
-        "website": "https://samperisi.com/moistle/", 
-        "releaseYear": "2024",
-        "maxAttempts": 6,
-        "category": "Word",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },  
-    "Semantle": {
-        "name": "Semantle",
-        "website": "https://semantle.com/", 
-        "releaseYear": "2022",
-        "maxAttempts": -1,
-        "category": "Word",
-        "userInput": "Word",
-        "difficultyLevel": "Hard"
-    },
-    "Crosswordle": {
-        "name": "Crosswordle",
-        "website": "https://crosswordle.serializer.ca/", 
-        "releaseYear": "2022",
-        "maxAttempts": -1,
-        "category": "Word",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Squareword": {
-        "name": "Squareword",
-        "website": "https://squareword.org/", 
-        "releaseYear": "2022",
-        "maxAttempts": -1,
-        "category": "Word",
-        "userInput": "Word",
-        "difficultyLevel": "Low"
-    },
-    "Reversle": {
-        "name": "Reversle",
-        "website": "https://reversle.net/", 
-        "releaseYear": "2022",
-        "maxAttempts": -1,
-        "category": "Word",
-        "userInput": "Word",
-        "difficultyLevel": "Hard"
-    },
-    "Absurdle": {
-        "name": "Absurdle",
-        "website": "https://qntm.org/absurdle", 
-        "releaseYear": "2022",
-        "maxAttempts": -1,
-        "category": "Word",
-        "userInput": "Word",
-        "difficultyLevel": "Hard"
-    },
-    "Heardle": {
-        "name": "Heardle",
-        "website": "https://heardlewordle.io/", 
-        "releaseYear": "2023",
-        "maxAttempts": 6,
-        "category": "Music",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Taylordle": {
-        "name": "Taylordle",
-        "website": "https://taylordle.org/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Music",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Swiftle": {
-        "name": "Swiftle",
-        "website": "https://www.techyonic.co/swiftle", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Music",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Byrdle": {
-        "name": "Byrdle",
-        "website": "https://www.byrdle.net/", 
-        "releaseYear": "2022",
-        "maxAttempts": 7,
-        "category": "Music",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Worldle": {
-        "name": "Worldle",
-        "website": "https://worldle.teuteuf.fr/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Geography",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Globle": {
-        "name": "Globle",
-        "website": "https://globle-game.com/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Geography",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Citydle": {
-        "name": "Citydle",
-        "website": "https://citydle.com/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Geography",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Nerdle": {
-        "name": "Nerdle",
-        "website": "https://nerdlegame.com/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Math",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Mathle": {
-        "name": "Mathle",
-        "website": "https://mathle.net/", 
-        "releaseYear": "2022",
-        "maxAttempts": 5,
-        "category": "Math",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Mathler": {
-        "name": "Mathler",
-        "website": "https://www.mathler.com/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Math",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Primel": {
-        "name": "Primel",
-        "website": "https://converged.yt/primel/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Math",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Lordle of the Rings" : {
-        "name": "Lordle of the Rings",
-        "website": "https://lordle.digitaltolkien.com/", 
-        "releaseYear": "2023",
-        "maxAttempts": 6,
-        "category": "Movies",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Swordle": {
-        "name": "Swordle",
-        "website": "https://wordle.starwars.guide/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Movies",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Star Wordle": {
-        "name": "Star Wordle",
-        "website": "https://www.starwordle.com/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Movies",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Squirdle": {
-        "name": "Squirdle",
-        "website": "https://squirdle.fireblend.com/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Games",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Poetl": {
-        "name": "Poetl",
-        "website": "https://poeltl.nbpa.com/landing-page", 
-        "releaseYear": "2022",
-        "maxAttempts": 8,
-        "category": "Sports",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Pickle": {
-        "name": "Pickle",
-        "website": "https://picklewordle.com/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Sports",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "CFBordle": {
-        "name": "CFBordle",
-        "website": "https://cfbordle.redditcfb.com/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Sports",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Football Wordle": {
-        "name": "Football Wordle",
-        "website": "https://footballwordle.com/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Sports",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Who are Ya?": {
-        "name": "Who are Ya?",
-        "website": "https://playfootball.games/who-are-ya", 
-        "releaseYear": "2022",
-        "maxAttempts": 8,
-        "category": "Sports",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Factle": {
-        "name": "Factle",
-        "website": "https://factle.app/", 
-        "releaseYear": "2022",
-        "maxAttempts": 5,
-        "category": "Trivia",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Learnle": {
-        "name": "Learnle",
-        "website": "https://learnle.net/", 
-        "releaseYear": "2022",
-        "maxAttempts": 5,
-        "category": "Trivia",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Quizl": {
-        "name": "Quizl",
-        "website": "https://quizl.io/", 
-        "releaseYear": "2022",
-        "maxAttempts": 0,
-        "category": "Trivia",
-        "userInput": "Muliple Choice",
-        "difficultyLevel": "Medium"
-    },
-    "Yeardle": {
-        "name": "Yeardle",
-        "website": "https://histordle.com/yeardle/", 
-        "releaseYear": "2022",
-        "maxAttempts": 8,
-        "category": "Trivia",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Hexle": {
-        "name": "Hexle",
-        "website": "https://frankljin.github.io/hexle/  ", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Other",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Disorderly": {
-        "name": "Disorderly",
-        "website": "https://playdisorderly.com/", 
-        "releaseYear": "2024",
-        "maxAttempts": -1,
-        "category": "Other",
-        "userInput": "Sorting",
-        "difficultyLevel": "Easy"
-    },
-    "Tradle": {
-        "name": "Tradle",
-        "website": "https://games.oec.world/en/tradle/", 
-        "releaseYear": "2023",
-        "maxAttempts": 6,
-        "category": "Economics",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Guess The.Game": {
-        "name": "Guess The.Game",
-        "website": "https://guessthe.game/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Games",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Gamedle": {
-        "name": "Gamedle",
-        "website": "https://www.gamedle.wtf/", 
-        "releaseYear": "2022",
-        "maxAttempts": 6,
-        "category": "Games",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Contexto": {
-        "name": "Contexto",
-        "website": "https://contexto.me/", 
-        "releaseYear": "2022",
-        "maxAttempts": -1,
-        "category": "Word",
-        "userInput": "Word",
-        "difficultyLevel": "Medium"
-    },
-    "Connections": {
-        "name": "Connections",
-        "website": "https://www.nytimes.com/games/connections", 
-        "releaseYear": "2023",
-        "maxAttempts": 4,
-        "category": "Word",
-        "userInput": "Pick",
-        "difficultyLevel": "Medium"
-    }
+  "23Words": {
+    "name": "23Words",
+    "website": "https://wordnerd.co/23words",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "fast-paced",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Unscramble 23 words, one by one, without running out of time.",
+    "userInputConfidence": 1
+  },
+  "Absurdle": {
+    "name": "Absurdle",
+    "website": "https://qntm.org/files/absurdle/absurdle.html",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "An adversarial version of Wordle that actively avoids giving you the answer.",
+    "userInputConfidence": 1
+  },
+  "Actorle": {
+    "name": "Actorle",
+    "website": "https://actorle.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "archive",
+      "movies"
+    ],
+    "userInput": "Word",
+    "description": "Guess the movie actor based on the given information, with each guess revealing matching information.",
+    "userInputConfidence": 0.6
+  },
+  "ActorleFilltheGrid": {
+    "name": "ActorleFilltheGrid",
+    "website": "https://actorle.com/fill-the-grid",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "archive",
+      "movies"
+    ],
+    "userInput": "Word",
+    "description": "Fill the grid with actors that are cast in movies from each cell's corresponding row and column.",
+    "userInputConfidence": 1
+  },
+  "ActorleStoryboard": {
+    "name": "ActorleStoryboard",
+    "website": "https://actorle.com/storyboard",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "archive",
+      "movies",
+      "pictures"
+    ],
+    "userInput": "Drag and Drop",
+    "description": "Rearrange the movie frames in chronological order.",
+    "userInputConfidence": 1
+  },
+  "ActorleTv": {
+    "name": "ActorleTv",
+    "website": "https://actorle.tv",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "archive",
+      "tv"
+    ],
+    "userInput": "Word",
+    "description": "Guess the TV actor based on the given information, with each guess revealing matching information.",
+    "userInputConfidence": 1
+  },
+  "Adoptle": {
+    "name": "Adoptle",
+    "website": "https://tryhardguides.com/adoptle",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "pictures",
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the name of a pet that is up for adoption, given a picture of them.",
+    "userInputConfidence": 1
+  },
+  "AirportGuessr": {
+    "name": "AirportGuessr",
+    "website": "https://airportguessr.bytecatch.io/",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "pictures"
+    ],
+    "userInput": "Word",
+    "description": "Guess the airport given its satellite image.",
+    "userInputConfidence": 1
+  },
+  "Angle": {
+    "name": "Angle",
+    "website": "https://angle.wtf",
+    "releaseYear": "2022",
+    "maxAttempts": 4,
+    "category": "Math/Logic",
+    "tags": [
+      "math",
+      "visual"
+    ],
+    "userInput": "Number",
+    "description": "Guess the angle in 4 guesses or less.",
+    "userInputConfidence": 1
+  },
+  "Anigrams": {
+    "name": "Anigrams",
+    "website": "https://anigrams.us",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Unscramble a series of words, revealing a new letter each time.",
+    "userInputConfidence": 0.83
+  },
+  "Archiguessr": {
+    "name": "Archiguessr",
+    "website": "https://archiguesser.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "archive",
+      "pictures"
+    ],
+    "userInput": "Word",
+    "description": "Guess the name of the architecture, given a series of pictures.",
+    "userInputConfidence": 1
+  },
+  "Artle": {
+    "name": "Artle",
+    "website": "https://www.nga.gov/artle.html",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "pictures"
+    ],
+    "userInput": "Word",
+    "description": "Guess the artist of the shown work of art.",
+    "userInputConfidence": 1
+  },
+  "Balatrodle": {
+    "name": "Balatrodle",
+    "website": "https://www.balatrodle.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess the Joker from the game Balatro.",
+    "userInputConfidence": 1
+  },
+  "Bandle": {
+    "name": "Bandle",
+    "website": "https://bandle.app",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the song, one instrument at a time (sort of).",
+    "userInputConfidence": 0.5
+  },
+  "Betweenle": {
+    "name": "Betweenle",
+    "website": "https://betweenle.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the secret word hidden between other words before running out of guesses.",
+    "userInputConfidence": 1
+  },
+  "Blunderwall": {
+    "name": "Blunderwall",
+    "website": "https://bythomas.co.uk/blunderwall",
+    "releaseYear": "2024",
+    "maxAttempts": 4,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Pick",
+    "description": "Find the secret word on the Blunderwall in 4 tries.",
+    "userInputConfidence": 0.67
+  },
+  "Boggdle": {
+    "name": "Boggdle",
+    "website": "https://simenmh.com/boggdle",
+    "releaseYear": "2024",
+    "maxAttempts": 3,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Other",
+    "description": "Search for the best 3 words you can find in the Boggle grid.",
+    "userInputConfidence": 1
+  },
+  "BoxOfficeGame": {
+    "name": "BoxOfficeGame",
+    "website": "https://boxofficega.me",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "movies"
+    ],
+    "userInput": "Word",
+    "description": "Guess the top five movies in the US domestic box office for the given weekend.",
+    "userInputConfidence": 1
+  },
+  "BracketCity": {
+    "name": "BracketCity",
+    "website": "https://bracket.city",
+    "releaseYear": "2018",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve the clues within brackets, eventually completing the puzzle.",
+    "userInputConfidence": 0.5
+  },
+  "BrainbashersDaily30Seconds": {
+    "name": "BrainbashersDaily30Seconds",
+    "website": "https://www.brainbashers.com/30seconds.asp",
+    "releaseYear": "2017",
+    "maxAttempts": -1,
+    "category": "Math/Logic",
+    "tags": [
+      "archive",
+      "fast-paced",
+      "math"
+    ],
+    "userInput": "Number",
+    "description": "Try to solve the arithmetic questions in 30 seconds, but it is okay if you go over.",
+    "userInputConfidence": 1
+  },
+  "BrainbashersDailyPuzzle": {
+    "name": "BrainbashersDailyPuzzle",
+    "website": "https://www.brainbashers.com/dailypuzzle.asp",
+    "releaseYear": "2004",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "archive",
+      "logic"
+    ],
+    "userInput": "Other",
+    "description": "A daily brainteaser from BrainBashers.",
+    "userInputConfidence": 1
+  },
+  "Brickdle": {
+    "name": "Brickdle",
+    "website": "https://www.brickdle.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "numbers",
+      "unlimited"
+    ],
+    "userInput": "Number",
+    "description": "Guess the number of pieces in the pictured LEGO set.",
+    "userInputConfidence": 1
+  },
+  "Calcle": {
+    "name": "Calcle",
+    "website": "https://calclegame.com",
+    "releaseYear": "2022",
+    "maxAttempts": 5,
+    "category": "Math/Logic",
+    "tags": [
+      "logic",
+      "math",
+      "unlimited"
+    ],
+    "userInput": "Number",
+    "description": "Guess the numbers in the equation in 5 attempts or less.",
+    "userInputConfidence": 0.75
+  },
+  "Capitale": {
+    "name": "Capitale",
+    "website": "https://capitale.countryle.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography"
+    ],
+    "userInput": "Word",
+    "description": "Guess the world capital in as few attempts as possible with the given clues.",
+    "userInputConfidence": 1
+  },
+  "Cardle": {
+    "name": "Cardle",
+    "website": "https://cardle.boxbox.autos",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "pictures"
+    ],
+    "userInput": "Word",
+    "description": "Correctly identify the pictured car's make, model, and year.",
+    "userInputConfidence": 1
+  },
+  "Cartoonguessr": {
+    "name": "Cartoonguessr",
+    "website": "https://cartoonguesser.pythonanywhere.com",
+    "releaseYear": "2025",
+    "maxAttempts": 15,
+    "category": "Movies/TV",
+    "tags": [
+      "tv"
+    ],
+    "userInput": "Word",
+    "description": "Guess the cartoon character within 15 guesses.",
+    "userInputConfidence": 1
+  },
+  "Categories": {
+    "name": "Categories",
+    "website": "https://categories.clevergoat.com",
+    "releaseYear": "2024",
+    "maxAttempts": 4,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Group the words in the grid into the 4 secret categories, like Connections or Conexo.",
+    "userInputConfidence": 1
+  },
+  "Catfishing": {
+    "name": "Catfishing",
+    "website": "https://catfishing.net",
+    "releaseYear": "2001",
+    "maxAttempts": 10,
+    "category": "Trivia",
+    "tags": [
+      "trivia",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the Wikipedia article by its categories. 10 rounds per day.",
+    "userInputConfidence": 1
+  },
+  "CellTower": {
+    "name": "CellTower",
+    "website": "https://www.andrewt.net/puzzles/cell-tower",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Divide the grid into regions such that each region represents a word.",
+    "userInputConfidence": 1
+  },
+  "Chainagram": {
+    "name": "Chainagram",
+    "website": "https://puzzletrail.games/puzzles/chainagram",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Make a chain linking two words together by changing one letter and making an anagram at each step.",
+    "userInputConfidence": 0.8
+  },
+  "Chess.comDailyPuzzle": {
+    "name": "Chess.comDailyPuzzle",
+    "website": "https://www.chess.com/daily-chess-puzzle",
+    "releaseYear": "2021",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic"
+    ],
+    "userInput": "Number",
+    "description": "Solve the daily chess puzzle from chess.com.",
+    "userInputConfidence": 1
+  },
+  "Chessguessr": {
+    "name": "Chessguessr",
+    "website": "https://www.chessguessr.com",
+    "releaseYear": "2021",
+    "maxAttempts": 5,
+    "category": "Math/Logic",
+    "tags": [
+      "logic"
+    ],
+    "userInput": "Other",
+    "description": "Given a snapshot from a chess game, guess the next 5 moves played.",
+    "userInputConfidence": 0.5
+  },
+  "Chessle": {
+    "name": "Chessle",
+    "website": "https://jackli.gg/chessle",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic"
+    ],
+    "userInput": "Word",
+    "description": "Guess today's entire opening Chess sequence.",
+    "userInputConfidence": 1
+  },
+  "Chrono": {
+    "name": "Chrono",
+    "website": "https://chrono.quest",
+    "releaseYear": "2022",
+    "maxAttempts": 3,
+    "category": "Geography/History",
+    "tags": [
+      "history",
+      "time"
+    ],
+    "userInput": "Drag and Drop",
+    "description": "Put the events in chronological order in 3 tries or less.",
+    "userInputConfidence": 1
+  },
+  "Chronoline": {
+    "name": "Chronoline",
+    "website": "https://chronoline.app/daily",
+    "releaseYear": "2023",
+    "maxAttempts": 5,
+    "category": "Geography/History",
+    "tags": [
+      "history",
+      "time"
+    ],
+    "userInput": "Pick",
+    "description": "One by one, place each historical event in the correct spot on the timeline without making 5 mistakes.",
+    "userInputConfidence": 0.5
+  },
+  "Chronophoto": {
+    "name": "Chronophoto",
+    "website": "https://www.chronophoto.app",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "history",
+      "pictures",
+      "time"
+    ],
+    "userInput": "Word",
+    "description": "Guess the year in which each historical picture was taken.",
+    "userInputConfidence": 1
+  },
+  "Cine2nerdle": {
+    "name": "Cine2nerdle",
+    "website": "https://www.cinenerdle2.app",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "archive",
+      "movies"
+    ],
+    "userInput": "Drag and Drop",
+    "description": "Rearrange the tiles into groups that represent movies/themes. Includes both Original and Reversal.",
+    "userInputConfidence": 0.75
+  },
+  "Cinematrix": {
+    "name": "Cinematrix",
+    "website": "https://www.vulture.com/article/daily-movie-grid-trivia-game-cinematrix.html",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "movies"
+    ],
+    "userInput": "Drag and Drop",
+    "description": "Fill out the grid with movies matching the criteria of each cell's row and column. Changes every weekday.",
+    "userInputConfidence": 1
+  },
+  "Circuits": {
+    "name": "Circuits",
+    "website": "https://circuitsgame.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Place words into the empty boxes so that each connection of two words make a compound word.",
+    "userInputConfidence": 0.8
+  },
+  "Clickword": {
+    "name": "Clickword",
+    "website": "https://clickword.org",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Place letter tiles on the board to make words and score points! Keep placing tiles until you run out.",
+    "userInputConfidence": 0.6
+  },
+  "Cluewords": {
+    "name": "Cluewords",
+    "website": "https://wordnerd.co/cluewords",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve the clues to find the hidden words.",
+    "userInputConfidence": 0.5
+  },
+  "Colordle": {
+    "name": "Colordle",
+    "website": "https://colordle.ryantanen.com",
+    "releaseYear": "2022",
+    "maxAttempts": -1,
+    "category": "Miscellaneous",
+    "tags": [
+      "colors"
+    ],
+    "userInput": "Word",
+    "description": "Guess today's color by using color names.",
+    "userInputConfidence": 1
+  },
+  "Colorfle": {
+    "name": "Colorfle",
+    "website": "https://colorfle.com",
+    "releaseYear": "2008",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "colors"
+    ],
+    "userInput": "Pick",
+    "description": "Figure out the color composition of the given color.",
+    "userInputConfidence": 1
+  },
+  "Colorguesser": {
+    "name": "Colorguesser",
+    "website": "https://colorguesser.com",
+    "releaseYear": "2021",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "colors"
+    ],
+    "userInput": "Word",
+    "description": "Guess the actual color that each of the color names represent.",
+    "userInputConfidence": 1
+  },
+  "Combinations": {
+    "name": "Combinations",
+    "website": "https://combinations.org",
+    "releaseYear": "2000",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Create words using combinations of letters from the grid.",
+    "userInputConfidence": 0.6
+  },
+  "CompoundYourJoy": {
+    "name": "CompoundYourJoy",
+    "website": "https://onelook.com/?loc=rd&w=cyj",
+    "releaseYear": "2024",
+    "maxAttempts": -1,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Drag and Drop",
+    "description": "Rearrange the words into a chain of 2-word concepts.",
+    "userInputConfidence": 0.6
+  },
+  "Concludle": {
+    "name": "Concludle",
+    "website": "https://tryhardguides.com/concludle",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Trivia",
+    "tags": [
+      "trivia"
+    ],
+    "userInput": "Word",
+    "description": "Guess the secret answer from a series of clues.",
+    "userInputConfidence": 1
+  },
+  "Conexo": {
+    "name": "Conexo",
+    "website": "https://conexo.ws/en",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "userInput": "Pick",
+    "description": "Form groups of 4 words that have something in common.",
+    "userInputConfidence": 1
+  },
+  "ConnectionsGame": {
+    "name": "ConnectionsGame",
+    "website": "https://connectionsgame.org",
+    "releaseYear": "2023",
+    "maxAttempts": 4,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "userInput": "Pick",
+    "description": "Group words that share a common thread. Basically a copy of NYT Connections but with 3 difficulty modes and a good archive.",
+    "userInputConfidence": 1
+  },
+  "Contexto": {
+    "name": "Contexto",
+    "website": "https://contexto.me",
+    "releaseYear": "2016",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess words to see how close they are to the secret word in terms of context, eventually guessing the secret word.",
+    "userInputConfidence": 1
+  },
+  "Costcodle": {
+    "name": "Costcodle",
+    "website": "https://costcodle.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Price",
+    "tags": [
+      "pictures",
+      "prices"
+    ],
+    "userInput": "Word",
+    "description": "Guess the price of the given Costco item.",
+    "userInputConfidence": 1
+  },
+  "Countryle": {
+    "name": "Countryle",
+    "website": "https://www.countryle.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography"
+    ],
+    "userInput": "Word",
+    "description": "Guess the country in as few attempts as possible with the given clues.",
+    "userInputConfidence": 1
+  },
+  "Couples": {
+    "name": "Couples",
+    "website": "https://www.couples.game",
+    "releaseYear": "2024",
+    "maxAttempts": 3,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the chained word pairs in 3 tries.",
+    "userInputConfidence": 1
+  },
+  "CrackedSudoku": {
+    "name": "CrackedSudoku",
+    "website": "https://danielchasehooper.com/projects/cracked-sudoku/",
+    "releaseYear": "2025",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic"
+    ],
+    "userInput": "Number",
+    "description": "Fill the cells with numbers 1-9 without repeating numbers in a dark-outlined group or along a colored run line.",
+    "userInputConfidence": 1
+  },
+  "Craftword": {
+    "name": "Craftword",
+    "website": "https://craftword.game",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Get from the starting word to the ending word in as few words as possible. At each step you can either add a letter, remove a letter, change a letter, or rearrange letters.",
+    "userInputConfidence": 0.5
+  },
+  "Crossherd": {
+    "name": "Crossherd",
+    "website": "https://crossherd.clevergoat.com",
+    "releaseYear": "2025",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "A daily mini crossword from Clever Goat.",
+    "userInputConfidence": 1
+  },
+  "Crosswordle": {
+    "name": "Crosswordle",
+    "website": "https://crosswordle.vercel.app",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "logic",
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Fill in the grid to logically fit a series of Wordle guesses.",
+    "userInputConfidence": 1
+  },
+  "Crosswordle.com": {
+    "name": "Crosswordle.com",
+    "website": "https://crosswordle.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Swap tiles to solve multiple Wordle puzzles crossed together.",
+    "userInputConfidence": 0.75
+  },
+  "Crosswordle.org": {
+    "name": "Crosswordle.org",
+    "website": "https://crosswordle.org",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "logic",
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve multiple Wordle puzzles crossed together.",
+    "userInputConfidence": 0.75
+  },
+  "Cryptle": {
+    "name": "Cryptle",
+    "website": "https://cryptle.xyz",
+    "releaseYear": "2024",
+    "maxAttempts": 5,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Slide each row of letters in to the right position to guess the secret word. You have 5 guesses.",
+    "userInputConfidence": 0.57
+  },
+  "Cyphr": {
+    "name": "Cyphr",
+    "website": "https://cyphrgame.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess letters to form a word on each row of the pyramid, starting from the top row.",
+    "userInputConfidence": 0.8
+  },
+  "DailyDozenTrivia": {
+    "name": "DailyDozenTrivia",
+    "website": "https://dailydozentrivia.com",
+    "releaseYear": "2023",
+    "maxAttempts": 9,
+    "category": "Trivia",
+    "tags": [
+      "trivia"
+    ],
+    "userInput": "Word",
+    "description": "Answer 9 trivia questions from various categories.",
+    "userInputConfidence": 1
+  },
+  "DailyFactOrFiction": {
+    "name": "DailyFactOrFiction",
+    "website": "https://dailyfactorfiction.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Trivia",
+    "tags": [
+      "trivia"
+    ],
+    "userInput": "Word",
+    "description": "Guess whether today's statement is fact or fiction.",
+    "userInputConfidence": 1
+  },
+  "DailyFillIns": {
+    "name": "DailyFillIns",
+    "website": "https://azgames.io/game/daily-fill-ins",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Properly fill in the clue-less crossword with all of the words from the given word list.",
+    "userInputConfidence": 1
+  },
+  "DailyJingle": {
+    "name": "DailyJingle",
+    "website": "https://dailyjingle.me",
+    "releaseYear": "2022",
+    "maxAttempts": 5,
+    "category": "Music",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the melody within 5 tries.",
+    "userInputConfidence": 1
+  },
+  "DailyTens": {
+    "name": "DailyTens",
+    "website": "https://dailytens.com",
+    "releaseYear": "2006",
+    "maxAttempts": 5,
+    "category": "Trivia",
+    "tags": [
+      "trivia"
+    ],
+    "userInput": "Word",
+    "description": "Guess the top 10 items of today's category.",
+    "userInputConfidence": 1
+  },
+  "Daybrix": {
+    "name": "Daybrix",
+    "website": "https://vole.wtf/daybrix",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "fast-paced",
+      "visual"
+    ],
+    "userInput": "Other",
+    "description": "Daily tetris-style falling blocks game.",
+    "userInputConfidence": 1
+  },
+  "Daydle": {
+    "name": "Daydle",
+    "website": "https://daydle.com",
+    "releaseYear": "2012",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "history",
+      "time"
+    ],
+    "userInput": "Word",
+    "description": "Guess the year of a historical event that happened on this day in history.",
+    "userInputConfidence": 1
+  },
+  "Daydoku": {
+    "name": "Daydoku",
+    "website": "https://www.daydoku.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "logic",
+      "visual"
+    ],
+    "userInput": "Drag and Drop",
+    "description": "Place the polyominoes on the calendar so that every cell is covered except ones that correspond to today's date.",
+    "userInputConfidence": 1
+  },
+  "Dbdle": {
+    "name": "Dbdle",
+    "website": "https://dbdle.net",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Test your Dead by Daylight knowledge in these daily games.",
+    "userInputConfidence": 1
+  },
+  "Decipher": {
+    "name": "Decipher",
+    "website": "https://decipher.wtf",
+    "releaseYear": "2018",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve the daily cryptogram to reveal the quote.",
+    "userInputConfidence": 0.67
+  },
+  "Dicele": {
+    "name": "Dicele",
+    "website": "https://dicele.com",
+    "releaseYear": "2015",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "archive",
+      "logic",
+      "math"
+    ],
+    "userInput": "Number",
+    "description": "Swap dice to make each row and column sum up to their target number.",
+    "userInputConfidence": 1
+  },
+  "DisneyHeardle": {
+    "name": "DisneyHeardle",
+    "website": "https://diz-nee-heardle.glitch.me",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the Disney song from listening to small parts of it.",
+    "userInputConfidence": 1
+  },
+  "Disorderly": {
+    "name": "Disorderly",
+    "website": "https://playdisorderly.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Trivia",
+    "tags": [
+      "trivia"
+    ],
+    "userInput": "Drag and Drop",
+    "description": "Order the items correctly based on the given criteria.",
+    "userInputConfidence": 1
+  },
+  "DominoFit": {
+    "name": "DominoFit",
+    "website": "https://dominofit.isotropic.us",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic",
+      "visual"
+    ],
+    "userInput": "Number",
+    "description": "Fill the board with dominoes so that the dots add up in each row and column.",
+    "userInputConfidence": 1
+  },
+  "Doople": {
+    "name": "Doople",
+    "website": "https://www.dooplepuzzle.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Chain word combinations together to fit the given clues.",
+    "userInputConfidence": 0.75
+  },
+  "Dordle": {
+    "name": "Dordle",
+    "website": "https://zaratustra.itch.io/dordle",
+    "releaseYear": "2022",
+    "maxAttempts": 7,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve 2 Wordle puzzles at the same time.",
+    "userInputConfidence": 0.75
+  },
+  "Dotadle": {
+    "name": "Dotadle",
+    "website": "https://dotadle.net",
+    "releaseYear": "2023",
+    "maxAttempts": -1,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess the Dota characters in these daily quizzes.",
+    "userInputConfidence": 0.5
+  },
+  "Dungleon": {
+    "name": "Dungleon",
+    "website": "https://www.dungleon.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [],
+    "userInput": "Word",
+    "description": "Guess the dungeon's composition in 6 guesses.",
+    "userInputConfidence": 0.5
+  },
+  "Duotrigordle": {
+    "name": "Duotrigordle",
+    "website": "https://duotrigordle.com",
+    "releaseYear": "2022",
+    "maxAttempts": 37,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve 32 Wordle puzzles at the same time.",
+    "userInputConfidence": 0.75
+  },
+  "Eightile": {
+    "name": "Eightile",
+    "website": "https://eightile.com",
+    "releaseYear": "2024",
+    "maxAttempts": -1,
+    "category": "Word",
+    "tags": [
+      "fast-paced",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Unscramble each word, adding a new letter each time. You have 5 minutes.",
+    "userInputConfidence": 0.8
+  },
+  "Eruptle": {
+    "name": "Eruptle",
+    "website": "https://eruptle.app",
+    "releaseYear": "2024",
+    "maxAttempts": 8,
+    "category": "Trivia",
+    "tags": [
+      "trivia"
+    ],
+    "userInput": "Word",
+    "description": "Guess the 10 items that fit the prompt, kind of like Family Feud.",
+    "userInputConfidence": 1
+  },
+  "FaceGuessr": {
+    "name": "FaceGuessr",
+    "website": "https://www.faceguesser.com",
+    "releaseYear": "2011",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "pictures"
+    ],
+    "userInput": "Word",
+    "description": "Guess the pixelated face of today's notable figure.",
+    "userInputConfidence": 1
+  },
+  "Facedle": {
+    "name": "Facedle",
+    "website": "https://facedle.app",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "pictures"
+    ],
+    "userInput": "Word",
+    "description": "Guess the famous person in the partially covered picture.",
+    "userInputConfidence": 1
+  },
+  "Faces": {
+    "name": "Faces",
+    "website": "https://faces.wtf",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "archive",
+      "movies",
+      "pictures"
+    ],
+    "userInput": "Word",
+    "description": "Guess the names of the movie stars that are blended together into a single image.",
+    "userInputConfidence": 0.5
+  },
+  "Factle": {
+    "name": "Factle",
+    "website": "https://frontofficesports.com/trivia/factle",
+    "releaseYear": "2024",
+    "maxAttempts": 5,
+    "category": "Trivia",
+    "tags": [
+      "trivia"
+    ],
+    "userInput": "Word",
+    "description": "Find and properly rank the top 5 answers for the given criteria. You have 5 guesses to get it correct.",
+    "userInputConfidence": 0.5
+  },
+  "FactleSports": {
+    "name": "FactleSports",
+    "website": "https://frontofficesports.com/trivia/factle-sports",
+    "releaseYear": "2024",
+    "maxAttempts": 5,
+    "category": "Sport",
+    "tags": [
+      "sports",
+      "trivia"
+    ],
+    "userInput": "Word",
+    "description": "Find and properly rank the top 5 answers for the given sports-related criteria. You have 5 guesses to get it correct.",
+    "userInputConfidence": 0.5
+  },
+  "Fibble": {
+    "name": "Fibble",
+    "website": "https://fibble.xyz",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Wordle but it lies to you.  (Like Lirdle)",
+    "userInputConfidence": 1
+  },
+  "Figure": {
+    "name": "Figure",
+    "website": "https://figure.game",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic"
+    ],
+    "userInput": "Drag and Drop",
+    "description": "Clear all of the tiles before running out of moves.",
+    "userInputConfidence": 1
+  },
+  "Flagdle": {
+    "name": "Flagdle",
+    "website": "https://www.flagdle.org",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "flags",
+      "geography"
+    ],
+    "userInput": "Word",
+    "description": "Guess the country by its flag.",
+    "userInputConfidence": 1
+  },
+  "Flagdoku": {
+    "name": "Flagdoku",
+    "website": "https://flagdoku.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "flags",
+      "geography"
+    ],
+    "userInput": "Word",
+    "description": "Fill in the grid with flags that meet the criteria of both the row and column corresponding to their cell.",
+    "userInputConfidence": 1
+  },
+  "Flagle": {
+    "name": "Flagle",
+    "website": "https://www.flagle.io",
+    "releaseYear": "2015",
+    "maxAttempts": 5,
+    "category": "Geography/History",
+    "tags": [
+      "flags",
+      "geography"
+    ],
+    "userInput": "Word",
+    "description": "Guess the flag in 5 guesses or less.",
+    "userInputConfidence": 1
+  },
+  "FlagleGame": {
+    "name": "FlagleGame",
+    "website": "https://flagle-game.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "flags",
+      "geography"
+    ],
+    "userInput": "Word",
+    "description": "Guess the hidden flag in six guesses, revealing where your guess overlaps with the solution after each try.",
+    "userInputConfidence": 1
+  },
+  "Flickle": {
+    "name": "Flickle",
+    "website": "https://flickle.app",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "archive",
+      "movies"
+    ],
+    "userInput": "Word",
+    "description": "Guess the movie based on the given video clips.",
+    "userInputConfidence": 0.67
+  },
+  "Flipple": {
+    "name": "Flipple",
+    "website": "https://flipple.clevergoat.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Transform the starting word to the target word by changing one letter at a time",
+    "userInputConfidence": 0.8
+  },
+  "Foodguessr": {
+    "name": "Foodguessr",
+    "website": "https://www.foodguessr.com/daily",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "pictures"
+    ],
+    "userInput": "Word",
+    "description": "Guess what country each of the food dishes are from.",
+    "userInputConfidence": 1
+  },
+  "Framed": {
+    "name": "Framed",
+    "website": "https://framed.wtf",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "archive",
+      "movies",
+      "pictures"
+    ],
+    "userInput": "Word",
+    "description": "Guess the movie from 6 frames.",
+    "userInputConfidence": 0.67
+  },
+  "Fusele": {
+    "name": "Fusele",
+    "website": "https://fusele.netlify.app/?daily",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "A Wordle variant in which each row has a unique twist.",
+    "userInputConfidence": 1
+  },
+  "GamedleArtwork": {
+    "name": "GamedleArtwork",
+    "website": "https://www.gamedle.wtf/artwork",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "pictures",
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess the video game by its artwork.",
+    "userInputConfidence": 1
+  },
+  "GamedleClassic": {
+    "name": "GamedleClassic",
+    "website": "https://www.gamedle.wtf/classic",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "pictures",
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess the video game by its cover.",
+    "userInputConfidence": 1
+  },
+  "GamedleGuess": {
+    "name": "GamedleGuess",
+    "website": "https://www.gamedle.wtf/guess",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess the video game by its specifications.",
+    "userInputConfidence": 1
+  },
+  "GamedleKeywords": {
+    "name": "GamedleKeywords",
+    "website": "https://www.gamedle.wtf/keywords",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess the video game by keywords.",
+    "userInputConfidence": 1
+  },
+  "Gaps": {
+    "name": "Gaps",
+    "website": "https://gaps.wtf",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "archive",
+      "movies"
+    ],
+    "userInput": "Word",
+    "description": "Guess the movie based on the blanks and given information.",
+    "userInputConfidence": 0.67
+  },
+  "Geocircles": {
+    "name": "Geocircles",
+    "website": "https://geocircles.io",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography"
+    ],
+    "userInput": "Drag and Drop",
+    "description": "Given a streetview location, place progressively smaller circles on the map to help pinpoint its exact coordinates.",
+    "userInputConfidence": 1
+  },
+  "Geoconnections": {
+    "name": "Geoconnections",
+    "website": "https://geoconnections.net",
+    "releaseYear": "2001",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography",
+      "pictures"
+    ],
+    "userInput": "Pick",
+    "description": "Group mostly geography-related pictures that share a common theme.",
+    "userInputConfidence": 1
+  },
+  "Geodle": {
+    "name": "Geodle",
+    "website": "https://geodle.me",
+    "releaseYear": "2022",
+    "maxAttempts": 7,
+    "category": "Geography/History",
+    "tags": [
+      "geography"
+    ],
+    "userInput": "Word",
+    "description": "Guess today's mystery country within 7 guesses.",
+    "userInputConfidence": 1
+  },
+  "Geographle": {
+    "name": "Geographle",
+    "website": "https://geographle.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography"
+    ],
+    "userInput": "Word",
+    "description": "Find out where you are in the world in as few guesses as you can.",
+    "userInputConfidence": 0.67
+  },
+  "Geogrid": {
+    "name": "Geogrid",
+    "website": "https://www.geogridgame.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "archive",
+      "geography"
+    ],
+    "userInput": "Number",
+    "description": "Fill in the grid with countries that match each cell's corresponding row and column categories.",
+    "userInputConfidence": 1
+  },
+  "Globle": {
+    "name": "Globle",
+    "website": "https://globle-game.com/game",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography",
+      "maps"
+    ],
+    "userInput": "Word",
+    "description": "Guess the mystery country, given how close it is to each guessed country.",
+    "userInputConfidence": 1
+  },
+  "GlobleCapitals": {
+    "name": "GlobleCapitals",
+    "website": "https://globle-capitals.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography",
+      "maps"
+    ],
+    "userInput": "Word",
+    "description": "Guess the mystery world capital, given how close it is to each guessed world capital.",
+    "userInputConfidence": 1
+  },
+  "GramJam": {
+    "name": "GramJam",
+    "website": "https://gramjam.app",
+    "releaseYear": "2022",
+    "maxAttempts": 20,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Drag and Drop",
+    "description": "Clear the board in under 20 swaps, clearing letters by creating words on full rows or columns.",
+    "userInputConfidence": 0.75
+  },
+  "Graphs.world": {
+    "name": "Graphs.world",
+    "website": "https://www.graphs.world",
+    "releaseYear": "2018",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "archive"
+    ],
+    "userInput": "Multiple Choice",
+    "description": "Select the dataset that fits the displayed graph.",
+    "userInputConfidence": 0.5
+  },
+  "Griddle": {
+    "name": "Griddle",
+    "website": "https://griddlegame.io",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Form words by placing letters on the board to get the highest score you can in this Scrabble-like daily game.",
+    "userInputConfidence": 0.75
+  },
+  "GuessMyWord": {
+    "name": "GuessMyWord",
+    "website": "https://hryanjones.com/guess-my-word",
+    "releaseYear": "2019",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Make guesses and see if they are alphabetically before or after the secret word.",
+    "userInputConfidence": 1
+  },
+  "GuesstheAudio": {
+    "name": "GuesstheAudio",
+    "website": "https://guesstheaudio.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "archive",
+      "audio",
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the song from listening to small parts of it, getting a clue after each guess.",
+    "userInputConfidence": 1
+  },
+  "GuesstheGame": {
+    "name": "GuesstheGame",
+    "website": "https://guessthe.game",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "archive",
+      "pictures",
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess the video game by its cropped screenshots.",
+    "userInputConfidence": 1
+  },
+  "Harmonies:MusicConnections": {
+    "name": "Harmonies:MusicConnections",
+    "website": "https://harmonies.io",
+    "releaseYear": "2024",
+    "maxAttempts": 4,
+    "category": "Music",
+    "tags": [
+      "music"
+    ],
+    "userInput": "Pick",
+    "description": "Find the groups of 4 that share some musical theme.",
+    "userInputConfidence": 1
+  },
+  "Heardle1950's": {
+    "name": "Heardle1950's",
+    "website": "https://50s.heardledecades.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the 1950's song from listening to small parts of it.",
+    "userInputConfidence": 1
+  },
+  "Heardle1960's": {
+    "name": "Heardle1960's",
+    "website": "https://60s.heardledecades.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the 1960's song from listening to small parts of it.",
+    "userInputConfidence": 1
+  },
+  "Heardle1970's": {
+    "name": "Heardle1970's",
+    "website": "https://70s.heardledecades.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the 1970's song from listening to small parts of it.",
+    "userInputConfidence": 1
+  },
+  "Heardle1980's": {
+    "name": "Heardle1980's",
+    "website": "https://80s.heardledecades.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the 1980's song from listening to small parts of it.",
+    "userInputConfidence": 1
+  },
+  "Heardle1990's": {
+    "name": "Heardle1990's",
+    "website": "https://90s.heardledecades.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the 1990's song from listening to small parts of it.",
+    "userInputConfidence": 1
+  },
+  "Heardle2000's": {
+    "name": "Heardle2000's",
+    "website": "https://00s.heardledecades.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the 2000's song from listening to small parts of it.",
+    "userInputConfidence": 1
+  },
+  "Heardle2010's": {
+    "name": "Heardle2010's",
+    "website": "https://heardle10s.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the 2010's song from listening to small parts of it.",
+    "userInputConfidence": 1
+  },
+  "HeardleTvThemes": {
+    "name": "HeardleTvThemes",
+    "website": "https://tv.heardledecades.xyz",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the TV theme song from listening to small parts of it.",
+    "userInputConfidence": 1
+  },
+  "HelloWordl": {
+    "name": "HelloWordl",
+    "website": "https://hellowordl.net/?today",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Play Wordle puzzles from 4 to 11 letters long.",
+    "userInputConfidence": 0.8
+  },
+  "Hexcodle": {
+    "name": "Hexcodle",
+    "website": "https://www.hexcodle.com",
+    "releaseYear": "2023",
+    "maxAttempts": 5,
+    "category": "Miscellaneous",
+    "tags": [
+      "colors"
+    ],
+    "userInput": "Word",
+    "description": "Guess the 6-digit hex code of the shown color in 5 tries or less.",
+    "userInputConfidence": 1
+  },
+  "HexcodleMini": {
+    "name": "HexcodleMini",
+    "website": "https://www.hexcodle.com/mini",
+    "releaseYear": "2024",
+    "maxAttempts": 5,
+    "category": "Miscellaneous",
+    "tags": [
+      "colors"
+    ],
+    "userInput": "Word",
+    "description": "Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.",
+    "userInputConfidence": 1
+  },
+  "HiddenMirrors": {
+    "name": "HiddenMirrors",
+    "website": "https://www.hidden-mirrors.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "visual"
+    ],
+    "userInput": "Number",
+    "description": "A unique daily symmetry game where you try to match the given pattern.",
+    "userInputConfidence": 1
+  },
+  "HitoriConquest": {
+    "name": "HitoriConquest",
+    "website": "https://hitoriconquest.com",
+    "releaseYear": "2007",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic",
+      "numbers"
+    ],
+    "userInput": "Number",
+    "description": "Eliminate cells in the grid to remove row or column duplicates and satisfy the given rules.",
+    "userInputConfidence": 0.5
+  },
+  "Housle": {
+    "name": "Housle",
+    "website": "https://housle.house",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Price",
+    "tags": [
+      "pictures",
+      "prices"
+    ],
+    "userInput": "Word",
+    "description": "Guess the price of the house, given pictures of parts of the house.",
+    "userInputConfidence": 1
+  },
+  "HowlongtobeatDailyChallenge": {
+    "name": "HowlongtobeatDailyChallenge",
+    "website": "https://howlongtobeat.com/play",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess how long it takes to beat the given video game. Use power-ups if you need help.",
+    "userInputConfidence": 1
+  },
+  "Huewords": {
+    "name": "Huewords",
+    "website": "https://huewords.snellman.net",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "logic",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Fill the partitioned grid with letters to form 5-letter words, choosing from the given groups of letters.",
+    "userInputConfidence": 0.62
+  },
+  "ICalledGame": {
+    "name": "ICalledGame",
+    "website": "https://icalledgame.hoopgrids.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Sport",
+    "tags": [
+      "archive",
+      "nba",
+      "sports"
+    ],
+    "userInput": "Pick",
+    "description": "Identify key details from an image of a historical NBA game to answer 6 questions.",
+    "userInputConfidence": 0.67
+  },
+  "ImmaculateFooty": {
+    "name": "ImmaculateFooty",
+    "website": "https://www.immaculatefooty.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Sport",
+    "tags": [
+      "archive",
+      "soccer",
+      "sports"
+    ],
+    "userInput": "Pick",
+    "description": "Fill out the grid with soccer players matching the criteria of each cell's row and column.",
+    "userInputConfidence": 0.5
+  },
+  "ImmaculateGrid:Baseball": {
+    "name": "ImmaculateGrid:Baseball",
+    "website": "https://www.immaculategrid.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Sport",
+    "tags": [
+      "archive",
+      "baseball",
+      "sports"
+    ],
+    "userInput": "Pick",
+    "description": "Fill out the grid with baseball players matching the criteria of each cell's row and column.",
+    "userInputConfidence": 0.5
+  },
+  "ImmaculateGrid:Hockey": {
+    "name": "ImmaculateGrid:Hockey",
+    "website": "https://www.immaculategrid.com/hockey",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Sport",
+    "tags": [
+      "archive",
+      "hockey",
+      "sports"
+    ],
+    "userInput": "Pick",
+    "description": "Fill out the grid with hockey players matching the criteria of each cell's row and column.",
+    "userInputConfidence": 0.5
+  },
+  "ImmaculateGrid:Men'sBasketball": {
+    "name": "ImmaculateGrid:Men'sBasketball",
+    "website": "https://www.immaculategrid.com/basketball/mens",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Sport",
+    "tags": [
+      "archive",
+      "basketball",
+      "sports"
+    ],
+    "userInput": "Pick",
+    "description": "Fill out the grid with men's basketball players matching the criteria of each cell's row and column.",
+    "userInputConfidence": 0.5
+  },
+  "ImmaculateGrid:ProFootball": {
+    "name": "ImmaculateGrid:ProFootball",
+    "website": "https://www.immaculategrid.com/football",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Sport",
+    "tags": [
+      "archive",
+      "football",
+      "sports"
+    ],
+    "userInput": "Pick",
+    "description": "Fill out the grid with pro football players matching the criteria of each cell's row and column.",
+    "userInputConfidence": 0.5
+  },
+  "ImmaculateGrid:Women'sBasketball": {
+    "name": "ImmaculateGrid:Women'sBasketball",
+    "website": "https://www.immaculategrid.com/basketball/womens",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Sport",
+    "tags": [
+      "archive",
+      "basketball",
+      "sports"
+    ],
+    "userInput": "Pick",
+    "description": "Fill out the grid with women's basketball players matching the criteria of each cell's row and column.",
+    "userInputConfidence": 0.5
+  },
+  "Isaacle": {
+    "name": "Isaacle",
+    "website": "https://isaacle.net",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess the items from the game The Binding of Isaac in these daily quizzes.",
+    "userInputConfidence": 1
+  },
+  "Isaaconnect": {
+    "name": "Isaaconnect",
+    "website": "https://isaaconnect.com",
+    "releaseYear": "2018",
+    "maxAttempts": 4,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Pick",
+    "description": "Group items from The Binding of Isaac that share a common theme.",
+    "userInputConfidence": 1
+  },
+  "Iykyk": {
+    "name": "Iykyk",
+    "website": "https://www.iykyk.com",
+    "releaseYear": "2018",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess what today's acronym stands for. By the makers of the card game CultureTags.",
+    "userInputConfidence": 1
+  },
+  "Jeopardle": {
+    "name": "Jeopardle",
+    "website": "https://jeopardle.co",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Trivia",
+    "tags": [
+      "trivia"
+    ],
+    "userInput": "Word",
+    "description": "Answer today's Jeopardy questions from the given category.",
+    "userInputConfidence": 1
+  },
+  "Jumblie": {
+    "name": "Jumblie",
+    "website": "https://jumblie.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Find the 4 themed words hidden amongst the letters such that all letters are used exactly once.",
+    "userInputConfidence": 0.57
+  },
+  "Juxtastat": {
+    "name": "Juxtastat",
+    "website": "https://urbanstats.org/quiz.html",
+    "releaseYear": "2023",
+    "maxAttempts": 5,
+    "category": "Geography/History",
+    "tags": [
+      "geography"
+    ],
+    "userInput": "Word",
+    "description": "For 5 rounds, guess which of the two regions better fits the given criteria.",
+    "userInputConfidence": 0.5
+  },
+  "Karat": {
+    "name": "Karat",
+    "website": "https://karat.auronymous.com",
+    "releaseYear": "2024",
+    "maxAttempts": 24,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Turn the rings of the ingot until each side forms a word - in 24 turns or less.",
+    "userInputConfidence": 0.67
+  },
+  "Keyword": {
+    "name": "Keyword",
+    "website": "https://www.washingtonpost.com/games/keyword",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Find the target word by guessing the final letter of the vertical words.",
+    "userInputConfidence": 0.67
+  },
+  "LaTimesCrossword": {
+    "name": "LaTimesCrossword",
+    "website": "https://www.latimes.com/games/daily-crossword",
+    "releaseYear": "2011",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve today's crossword from the Los Angeles Times.",
+    "userInputConfidence": 0.67
+  },
+  "Letroso": {
+    "name": "Letroso",
+    "website": "https://letroso.com/en/daily",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the secret word that can be up to 10 letters long.",
+    "userInputConfidence": 0.83
+  },
+  "Letterloop": {
+    "name": "Letterloop",
+    "website": "https://theletterloop.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Place the 8 letters in the circle to make two 5-letter words that share their first and last letters.",
+    "userInputConfidence": 0.56
+  },
+  "Letterset": {
+    "name": "Letterset",
+    "website": "https://www.letterset.net/daily",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Spell words with the given letters to earn points. Longer words help prolong the game and earn more points.",
+    "userInputConfidence": 0.8
+  },
+  "Lex.gamesByaVowel": {
+    "name": "Lex.gamesByaVowel",
+    "website": "https://lex.games/byavowel/",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Unjumble five words by inserting a unique vowel into each word.",
+    "userInputConfidence": 1
+  },
+  "Lex.gamesConlextions": {
+    "name": "Lex.gamesConlextions",
+    "website": "https://lex.games/connections/",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Group words that share a common thread, like Connections.",
+    "userInputConfidence": 1
+  },
+  "Lex.gamesLexicogs": {
+    "name": "Lex.gamesLexicogs",
+    "website": "https://lex.games/lexicogs/",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve today's clues by combining blocks of letters. Like the game 7 Little Words.",
+    "userInputConfidence": 0.5
+  },
+  "Lex.gamesMiniCrossword": {
+    "name": "Lex.gamesMiniCrossword",
+    "website": "https://lex.games/mini/",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "A daily mini crossword from Lex.Games",
+    "userInputConfidence": 1
+  },
+  "Lex.gamesSixAppeal": {
+    "name": "Lex.gamesSixAppeal",
+    "website": "https://lex.games/six/",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the 6-letter word, like Wordle, but you don't have to guess real words. The answer is a real word.",
+    "userInputConfidence": 0.91
+  },
+  "Lex.gamesSquareDance": {
+    "name": "Lex.gamesSquareDance",
+    "website": "https://lex.games/squaredance",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Make a word with each group of letters, but you must add a letter to each word.",
+    "userInputConfidence": 0.62
+  },
+  "Lingule": {
+    "name": "Lingule",
+    "website": "https://lingule.xyz",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the language of the today's word in 6 guesses or less.",
+    "userInputConfidence": 1
+  },
+  "Linkr": {
+    "name": "Linkr",
+    "website": "https://www.playlinkr.net",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic"
+    ],
+    "userInput": "Number",
+    "description": "Link each pair of numbered points together in three daily puzzles.",
+    "userInputConfidence": 1
+  },
+  "Linxicon": {
+    "name": "Linxicon",
+    "website": "https://linxicon.com",
+    "releaseYear": "2013",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Connect two random words by creating a chain of new words that bridge the gap in their meanings.",
+    "userInputConfidence": 1
+  },
+  "Lirdle": {
+    "name": "Lirdle",
+    "website": "https://lirdle.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Wordle except each line contains a lie. (Like Fibble)",
+    "userInputConfidence": 1
+  },
+  "ListThemAll!": {
+    "name": "ListThemAll!",
+    "website": "https://listthemall.com",
+    "releaseYear": "2010",
+    "maxAttempts": 6,
+    "category": "Trivia",
+    "tags": [
+      "trivia"
+    ],
+    "userInput": "Word",
+    "description": "List all of the items that fit today's category.",
+    "userInputConfidence": 1
+  },
+  "Listed": {
+    "name": "Listed",
+    "website": "https://listed.fun",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Price",
+    "tags": [
+      "pictures",
+      "prices"
+    ],
+    "userInput": "Word",
+    "description": "Guess the price of the recently sold property.",
+    "userInputConfidence": 1
+  },
+  "Locatle": {
+    "name": "Locatle",
+    "website": "https://locatle.strct.net",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography",
+      "pictures"
+    ],
+    "userInput": "Word",
+    "description": "Guess the country that the picture was taken in.",
+    "userInputConfidence": 1
+  },
+  "Logiquiz": {
+    "name": "Logiquiz",
+    "website": "https://www.logiquiz.com",
+    "releaseYear": "2004",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic"
+    ],
+    "userInput": "Multiple Choice",
+    "description": "A self-referential logic quiz with 5 difficulty modes.",
+    "userInputConfidence": 1
+  },
+  "Loldle": {
+    "name": "Loldle",
+    "website": "https://loldle.net",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "A bunch of daily games where you guess the champion from League of Legends.",
+    "userInputConfidence": 1
+  },
+  "Lyricle": {
+    "name": "Lyricle",
+    "website": "https://www.lyricle.app",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the song from the given lyrics.",
+    "userInputConfidence": 1
+  },
+  "MahjongHandle": {
+    "name": "MahjongHandle",
+    "website": "https://mahjong-handle.update.sh",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [],
+    "userInput": "Word",
+    "description": "Guess the Riichi Mahjong hand in 6 tries.",
+    "userInputConfidence": 1
+  },
+  "Mapgame": {
+    "name": "Mapgame",
+    "website": "https://mapgame.net",
+    "releaseYear": "2012",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography",
+      "maps"
+    ],
+    "userInput": "Word",
+    "description": "Use the map to guess a country, getting new hints after each guess.",
+    "userInputConfidence": 1
+  },
+  "Mathler": {
+    "name": "Mathler",
+    "website": "https://www.mathler.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "math",
+      "numbers"
+    ],
+    "userInput": "Number",
+    "description": "Find the hidden calculation that equals the given number.",
+    "userInputConfidence": 0.8
+  },
+  "Mazele": {
+    "name": "Mazele",
+    "website": "https://mazele.io",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic",
+      "math"
+    ],
+    "userInput": "Word",
+    "description": "Guess the correct maze path in the grid in 6 tries or less.",
+    "userInputConfidence": 0.5
+  },
+  "Metaflora": {
+    "name": "Metaflora",
+    "website": "https://flora.metazooa.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "science"
+    ],
+    "userInput": "Word",
+    "description": "Guess plants to see where they share common ancestors with the mystery plant, eventually guessing the mystery plant.",
+    "userInputConfidence": 1
+  },
+  "Metazooa": {
+    "name": "Metazooa",
+    "website": "https://metazooa.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "science"
+    ],
+    "userInput": "Word",
+    "description": "Guess animals to see where they share common ancestors with the mystery animal, eventually guessing the mystery animal.",
+    "userInputConfidence": 1
+  },
+  "Mcdle": {
+    "name": "Mcdle",
+    "website": "https://www.mcdle.net/",
+    "releaseYear": "2023",
+    "maxAttempts": -1,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Test your Minecraft knowledge in these daily games.",
+    "userInputConfidence": 1
+  },
+  "Minecraftle": {
+    "name": "Minecraftle",
+    "website": "https://minecraftle.zachmanson.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess the crafting recipe from the game Minecraft.",
+    "userInputConfidence": 1
+  },
+  "MiniCrossword(theObserver)": {
+    "name": "MiniCrossword(theObserver)",
+    "website": "https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "A daily mini crossword from The Observer.",
+    "userInputConfidence": 1
+  },
+  "MinuteCryptic": {
+    "name": "MinuteCryptic",
+    "website": "https://www.minutecryptic.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve today's cryptic clue.",
+    "userInputConfidence": 0.5
+  },
+  "Mislettered": {
+    "name": "Mislettered",
+    "website": "https://tryhardguides.com/mislettered",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve the word or phrase by guessing one letter at a time.",
+    "userInputConfidence": 0.6
+  },
+  "MlbPickle": {
+    "name": "MlbPickle",
+    "website": "https://www.mlbpickle.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Sport",
+    "tags": [
+      "baseball",
+      "sports"
+    ],
+    "userInput": "Word",
+    "description": "Guess today's mystery MLB player within nine guesses.",
+    "userInputConfidence": 0.33
+  },
+  "More/less": {
+    "name": "More/less",
+    "website": "https://lessgames.com/moreless",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Trivia",
+    "tags": [
+      "trivia"
+    ],
+    "userInput": "Multiple Choice",
+    "description": "Decide which option has more or less, and keep going until you get one wrong. There are 3 categories to play.",
+    "userInputConfidence": 1
+  },
+  "Morsle": {
+    "name": "Morsle",
+    "website": "https://morsle.fun",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "audio"
+    ],
+    "userInput": "Word",
+    "description": "Guess the word played out loud in Morse code. You have 21 guesses, but replaying the audio counts as a guess. Features a very helpful cheatsheet.",
+    "userInputConfidence": 1
+  },
+  "MovieGrid": {
+    "name": "MovieGrid",
+    "website": "https://moviegrid.io",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "movies"
+    ],
+    "userInput": "Drag and Drop",
+    "description": "Fill out the grid with movies matching the criteria of each cell's row and column.",
+    "userInputConfidence": 1
+  },
+  "MoviePyramid": {
+    "name": "MoviePyramid",
+    "website": "https://moviepyramid.io",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "movies"
+    ],
+    "userInput": "Number",
+    "description": "Fill in the cells of the pyramid with movies that match the criteria of their given row.",
+    "userInputConfidence": 0.67
+  },
+  "MovieReveal": {
+    "name": "MovieReveal",
+    "website": "https://moviereveal.io",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "movies"
+    ],
+    "userInput": "Word",
+    "description": "Guess today's hidden movie by revealing clues that cost you points!",
+    "userInputConfidence": 0.5
+  },
+  "MovieSnake": {
+    "name": "MovieSnake",
+    "website": "https://moviesnake.io",
+    "releaseYear": "2025",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "movies"
+    ],
+    "userInput": "Word",
+    "description": "Guess movies that match pairs of criteria until all clues have been used.",
+    "userInputConfidence": 0.5
+  },
+  "MovietoMovie": {
+    "name": "MovietoMovie",
+    "website": "https://movietomovie.com",
+    "releaseYear": "2004",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "archive",
+      "movies"
+    ],
+    "userInput": "Drag and Drop",
+    "description": "Connect two movies by jumping through actors and the movies they've been in.",
+    "userInputConfidence": 1
+  },
+  "Moviedle": {
+    "name": "Moviedle",
+    "website": "https://moviedle.xyz",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "archive",
+      "movies"
+    ],
+    "userInput": "Word",
+    "description": "Guess the movie based on the given information, with each guess revealing matching information.",
+    "userInputConfidence": 0.6
+  },
+  "Moviedle(fromHistordle)": {
+    "name": "Moviedle(fromHistordle)",
+    "website": "https://histordle.com/moviedle",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "movies",
+      "time"
+    ],
+    "userInput": "Word",
+    "description": "Guess the year that the given movies were released.",
+    "userInputConfidence": 0.67
+  },
+  "MoviedleFilltheGrid": {
+    "name": "MoviedleFilltheGrid",
+    "website": "https://moviedle.xyz/fill-the-grid",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "archive",
+      "movies"
+    ],
+    "userInput": "Drag and Drop",
+    "description": "Fill the grid with movies that contain actors from each cell's corresponding row and column.",
+    "userInputConfidence": 1
+  },
+  "MoviedleMoviemoji": {
+    "name": "MoviedleMoviemoji",
+    "website": "https://moviedle.xyz/moviemoji",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "archive",
+      "movies"
+    ],
+    "userInput": "Word",
+    "description": "Guess the movie based on the given emojis.",
+    "userInputConfidence": 0.67
+  },
+  "Moview": {
+    "name": "Moview",
+    "website": "https://moview.online",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "movies"
+    ],
+    "userInput": "Word",
+    "description": "Guess the movie, starting with a single review from Letterboxd. Gain more information after each incorrect guess.",
+    "userInputConfidence": 0.4
+  },
+  "Murdle": {
+    "name": "Murdle",
+    "website": "https://murdle.com",
+    "releaseYear": "2013",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic"
+    ],
+    "userInput": "Number",
+    "description": "Solve today's murder-mystery logic puzzle.",
+    "userInputConfidence": 1
+  },
+  "Musicdoku": {
+    "name": "Musicdoku",
+    "website": "https://musicdoku.com",
+    "releaseYear": "2025",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Fill in the grid with songs that meet the criteria of both the row and column corresponding to their cell.",
+    "userInputConfidence": 0
+  },
+  "Neighborle": {
+    "name": "Neighborle",
+    "website": "https://neighborle.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography",
+      "maps"
+    ],
+    "userInput": "Word",
+    "description": "Guess the countries that border the highlighted country on the map.",
+    "userInputConfidence": 0.5
+  },
+  "Nerdle": {
+    "name": "Nerdle",
+    "website": "https://nerdlegame.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "archive",
+      "math",
+      "numbers"
+    ],
+    "userInput": "Word",
+    "description": "Guess the secret arithmetic equation.",
+    "userInputConfidence": 0.75
+  },
+  "NumberIsland": {
+    "name": "NumberIsland",
+    "website": "https://numberisland.com",
+    "releaseYear": "2012",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "archive",
+      "math",
+      "numbers"
+    ],
+    "userInput": "Number",
+    "description": "Divide the number board into islands that match the target sums.",
+    "userInputConfidence": 1
+  },
+  "Numble": {
+    "name": "Numble",
+    "website": "https://numble.wtf",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "math",
+      "numbers"
+    ],
+    "userInput": "Number",
+    "description": "Reach the target number only using operations and each given number exactly once.",
+    "userInputConfidence": 0.8
+  },
+  "Numbobulate": {
+    "name": "Numbobulate",
+    "website": "https://www.numbobulate.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "math",
+      "numbers"
+    ],
+    "userInput": "Number",
+    "description": "Use the numbers and operations in the square to reach the target number.",
+    "userInputConfidence": 0.8
+  },
+  "Connections": {
+    "name": "Connections",
+    "website": "https://www.nytimes.com/games/connections",
+    "releaseYear": "2023",
+    "maxAttempts": 4,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Pick",
+    "description": "Group words that share a common thread.",
+    "userInputConfidence": 1
+  },
+  "NytConnections:SportsEdition": {
+    "name": "NytConnections:SportsEdition",
+    "website": "https://www.nytimes.com/athletic/connections-sports-edition",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Sport",
+    "tags": [
+      "sports"
+    ],
+    "userInput": "Pick",
+    "description": "Group sports terms that share a common thread.",
+    "userInputConfidence": 0.5
+  },
+  "NytMiniCrossword": {
+    "name": "NytMiniCrossword",
+    "website": "https://www.nytimes.com/crosswords/game/mini",
+    "releaseYear": "2015",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "A very small crossword puzzle by the New York Times.",
+    "userInputConfidence": 1
+  },
+  "NytStrands": {
+    "name": "NytStrands",
+    "website": "https://www.nytimes.com/games/strands",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Find hidden words and uncover the day's theme.",
+    "userInputConfidence": 0.67
+  },
+  "NytSudoku": {
+    "name": "NytSudoku",
+    "website": "https://www.nytimes.com/puzzles/sudoku",
+    "releaseYear": "2019",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic",
+      "numbers"
+    ],
+    "userInput": "Number",
+    "description": "Daily Sudoku puzzles from the New York Times.",
+    "userInputConfidence": 1
+  },
+  "Wordle": {
+    "name": "Wordle",
+    "website": "https://www.nytimes.com/games/wordle/index.html",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "userInputConfidence": 1
+  },
+  "Octordle": {
+    "name": "Octordle",
+    "website": "https://www.britannica.com/games/octordle",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve 8 Wordle puzzles at the same time. You have 13 guesses.",
+    "userInputConfidence": 0.75
+  },
+  "OecConnectrade": {
+    "name": "OecConnectrade",
+    "website": "https://oec.world/en/games/connectrade",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography"
+    ],
+    "userInput": "Pick",
+    "description": "Form groups of four exported products that are associated with one of the given countries.",
+    "userInputConfidence": 1
+  },
+  "OecPick5": {
+    "name": "OecPick5",
+    "website": "https://oec.world/en/games/pick-5",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography"
+    ],
+    "userInput": "Word",
+    "description": "Guess the top 5 countries that export the most of the given product.",
+    "userInputConfidence": 1
+  },
+  "OecTradle": {
+    "name": "OecTradle",
+    "website": "https://games.oec.world/en/tradle",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography"
+    ],
+    "userInput": "Word",
+    "description": "Guess the country by its exports.",
+    "userInputConfidence": 1
+  },
+  "OntheRecord": {
+    "name": "OntheRecord",
+    "website": "https://www.washingtonpost.com/news-quiz",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Trivia",
+    "tags": [
+      "trivia"
+    ],
+    "userInput": "Word",
+    "description": "Answer the question based on the given quote, Monday through Thursday. Every Friday, you get 10 questions that will last through the weekend.",
+    "userInputConfidence": 1
+  },
+  "OneUpPuzzle": {
+    "name": "OneUpPuzzle",
+    "website": "https://www.oneuppuzzle.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic",
+      "numbers"
+    ],
+    "userInput": "Number",
+    "description": "Sudoku-style game where you need to fill segmented rows and columns with numbers.",
+    "userInputConfidence": 1
+  },
+  "OneWordSearch": {
+    "name": "OneWordSearch",
+    "website": "https://onewordsearch.com",
+    "releaseYear": "2014",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Repeatedly search for the only word in a grid of letters.",
+    "userInputConfidence": 0.75
+  },
+  "Orbits": {
+    "name": "Orbits",
+    "website": "https://www.playorbits.com",
+    "releaseYear": "2018",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Place the 8 words in the correct order in the orbit by creating compound words or 2-word phrases.",
+    "userInputConfidence": 0.67
+  },
+  "OrderUp": {
+    "name": "OrderUp",
+    "website": "https://orderup.games",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Trivia",
+    "tags": [
+      "trivia"
+    ],
+    "userInput": "Word",
+    "description": "Arrange the themed items in the correct order within 5 guesses.",
+    "userInputConfidence": 1
+  },
+  "Outword": {
+    "name": "Outword",
+    "website": "https://outword.me",
+    "releaseYear": "2016",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Create 2 words from the given letters. Each letter has a base value and some letters have multipliers, like in Scrabble.",
+    "userInputConfidence": 0.62
+  },
+  "Pandergram": {
+    "name": "Pandergram",
+    "website": "https://onelook.com/pandergram",
+    "releaseYear": "2025",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Swap out letters from the given words to create new words that together use the entire alphabet.",
+    "userInputConfidence": 0.67
+  },
+  "Pedantle": {
+    "name": "Pedantle",
+    "website": "https://cemantle.certitudes.org/pedantle",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Find the secret Wikipedia page by revealing the words in its introduction.",
+    "userInputConfidence": 0.75
+  },
+  "PerfectPitchPuzzle": {
+    "name": "PerfectPitchPuzzle",
+    "website": "https://www.perfectpitchpuzzle.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "userInput": "Pick",
+    "description": "After listening to a short tune, identify the first 6 notes that were played.",
+    "userInputConfidence": 0.5
+  },
+  "Petdle": {
+    "name": "Petdle",
+    "website": "https://petdle.link",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess the pet taken from the game Super Auto Pets.",
+    "userInputConfidence": 1
+  },
+  "Phrasle": {
+    "name": "Phrasle",
+    "website": "https://phrasle.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Reveal the phrase by guessing one letter at a time.",
+    "userInputConfidence": 0.75
+  },
+  "Picsey": {
+    "name": "Picsey",
+    "website": "https://picsey.io",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "pictures"
+    ],
+    "userInput": "Pick",
+    "description": "Identify today's picture by flipping over as few tiles as possible.",
+    "userInputConfidence": 1
+  },
+  "Pivots": {
+    "name": "Pivots",
+    "website": "https://playpivots.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic",
+      "visual"
+    ],
+    "userInput": "Drag and Drop",
+    "description": "Sort the board by pivoting parts of it at a time.",
+    "userInputConfidence": 1
+  },
+  "Planespottle": {
+    "name": "Planespottle",
+    "website": "https://planespottle.bytecatch.io",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "pictures"
+    ],
+    "userInput": "Multiple Choice",
+    "description": "Given an image of an airplane, determine the make, type, and the airline it belongs to.",
+    "userInputConfidence": 1
+  },
+  "Plotwords": {
+    "name": "Plotwords",
+    "website": "https://plotwords.com/daily",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "movies"
+    ],
+    "userInput": "Word",
+    "description": "Guess the name of the movie using as few plot keywords as possible!",
+    "userInputConfidence": 0.67
+  },
+  "Plusword": {
+    "name": "Plusword",
+    "website": "https://puzzles-prod.telegraph.co.uk/plusword",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve the mini crossword, then use letters in the shaded squares to figure out an additional word.",
+    "userInputConfidence": 0.67
+  },
+  "PocketPuzzles": {
+    "name": "PocketPuzzles",
+    "website": "https://playpocketpuzzles.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "A collection of daily word games.",
+    "userInputConfidence": 1
+  },
+  "Poeltl": {
+    "name": "Poeltl",
+    "website": "https://poeltl.nbpa.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Sport",
+    "tags": [
+      "nba",
+      "sports"
+    ],
+    "userInput": "Word",
+    "description": "Guess the NBA player in 8 guesses.",
+    "userInputConfidence": 0.33
+  },
+  "Pokedle": {
+    "name": "Pokedle",
+    "website": "https://pokedle.net",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess the Pokemon in these daily quizzes.",
+    "userInputConfidence": 1
+  },
+  "Pokedoku": {
+    "name": "Pokedoku",
+    "website": "https://pokedoku.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Fill out the grid with Pokémon matching the criteria of each cell's row and column.",
+    "userInputConfidence": 1
+  },
+  "Pokle": {
+    "name": "Pokle",
+    "website": "https://poklegame.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [],
+    "userInput": "Word",
+    "description": "Guess the 5 board cards in this daily Texas Holdem challenge.",
+    "userInputConfidence": 1
+  },
+  "Polygonle": {
+    "name": "Polygonle",
+    "website": "https://www.polygonle.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the word in 6 tries, like Wordle. Each unique shape over a column represents a letter.",
+    "userInputConfidence": 0.83
+  },
+  "Popcultured": {
+    "name": "Popcultured",
+    "website": "https://histordle.com/popcultured",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Trivia",
+    "tags": [
+      "time"
+    ],
+    "userInput": "Word",
+    "description": "Guess the year given three pop culture items released that year.",
+    "userInputConfidence": 1
+  },
+  "Primel": {
+    "name": "Primel",
+    "website": "https://converged.yt/primel",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "numbers"
+    ],
+    "userInput": "Word",
+    "description": "Guess the 5-digit prime number in six guesses or less.",
+    "userInputConfidence": 0.5
+  },
+  "Puckdoku": {
+    "name": "Puckdoku",
+    "website": "https://www.puckdoku.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Sport",
+    "tags": [
+      "hockey",
+      "sports"
+    ],
+    "userInput": "Pick",
+    "description": "Fill out the grid with hockey players matching the criteria of each cell's row and column.",
+    "userInputConfidence": 0.5
+  },
+  "Pufferdle": {
+    "name": "Pufferdle",
+    "website": "https://pufferdle.com/#/daily",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Catch a fish from the game Stardew Valley and then guess what fish it was.",
+    "userInputConfidence": 1
+  },
+  "PuzzmoCrossword": {
+    "name": "PuzzmoCrossword",
+    "website": "https://www.puzzmo.com/play/crossword",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "puzzmo",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Crosswords without getting stuck.",
+    "userInputConfidence": 1
+  },
+  "PuzzmoFlipart": {
+    "name": "PuzzmoFlipart",
+    "website": "https://www.puzzmo.com/play/flip-art",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "puzzmo",
+      "visual"
+    ],
+    "userInput": "Other",
+    "description": "Rotate the pieces to fit them within the frame.",
+    "userInputConfidence": 1
+  },
+  "PuzzmoReallyBadChess": {
+    "name": "PuzzmoReallyBadChess",
+    "website": "https://www.puzzmo.com/play/really-bad-chess",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "puzzmo"
+    ],
+    "userInput": "Other",
+    "description": "Checkmate the opponent's king in this randomized Chess variant.",
+    "userInputConfidence": 1
+  },
+  "PuzzmoSpelltower": {
+    "name": "PuzzmoSpelltower",
+    "website": "https://www.puzzmo.com/play/spelltower",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "puzzmo",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Find words to clear tiles in the falling grid.",
+    "userInputConfidence": 0.67
+  },
+  "PuzzmoTypeshift": {
+    "name": "PuzzmoTypeshift",
+    "website": "https://www.puzzmo.com/play/typeshift",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "puzzmo",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Slide columns of letters to make words, using all of the letters along the way.",
+    "userInputConfidence": 0.57
+  },
+  "Quickq": {
+    "name": "Quickq",
+    "website": "https://www.quickqtrivia.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Trivia",
+    "tags": [
+      "fast-paced",
+      "trivia"
+    ],
+    "userInput": "Word",
+    "description": "A 90 second trivia game with questions from 8 categories.",
+    "userInputConfidence": 1
+  },
+  "Quintessential": {
+    "name": "Quintessential",
+    "website": "https://quintessential.fun",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve each of the 5 horizontal words in as few swaps as possible.",
+    "userInputConfidence": 0.67
+  },
+  "Quizl": {
+    "name": "Quizl",
+    "website": "https://quizl.io",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Trivia",
+    "tags": [
+      "archive",
+      "trivia"
+    ],
+    "userInput": "Multiple Choice",
+    "description": "Answer today's 5 trivia questions.",
+    "userInputConfidence": 1
+  },
+  "Quordle": {
+    "name": "Quordle",
+    "website": "https://quordlegame.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve 4 Wordle puzzles at the same time.",
+    "userInputConfidence": 0.75
+  },
+  "RealBirdFakeBird": {
+    "name": "RealBirdFakeBird",
+    "website": "https://realbirdfakebird.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Trivia",
+    "tags": [
+      "trivia"
+    ],
+    "userInput": "Multiple Choice",
+    "description": "Guess if each of the 7 prompts are real or fake (made up or don't belong).",
+    "userInputConfidence": 1
+  },
+  "Reciple": {
+    "name": "Reciple",
+    "website": "https://reciple.net",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [],
+    "userInput": "Word",
+    "description": "Guess the ingredients of today's recipe.",
+    "userInputConfidence": 1
+  },
+  "Redactle": {
+    "name": "Redactle",
+    "website": "https://redactle.net",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the Wikipedia article by its content with keywords redacted.",
+    "userInputConfidence": 1
+  },
+  "Regexle.com": {
+    "name": "Regexle.com",
+    "website": "https://regexle.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic"
+    ],
+    "userInput": "Letter",
+    "description": "Fill in the hexagon with sequences of characters that match the regular expressions listed around the edges.",
+    "userInputConfidence": 0.5
+  },
+  "Regexle.ithea.de": {
+    "name": "Regexle.ithea.de",
+    "website": "https://regexle.ithea.de",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "logic",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the secret regular expression by testing sequences of characters.",
+    "userInputConfidence": 0.67
+  },
+  "Reheardle": {
+    "name": "Reheardle",
+    "website": "https://reheardle.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the song from listening to small parts of it.",
+    "userInputConfidence": 1
+  },
+  "ReheardleVideoGames": {
+    "name": "ReheardleVideoGames",
+    "website": "https://reheardle.com/videogames",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the video game track from listening to small parts of it.",
+    "userInputConfidence": 1
+  },
+  "Relatle": {
+    "name": "Relatle",
+    "website": "https://www.relatle.lol",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the word based on one of its synonyms, given a new synonym after each guess.",
+    "userInputConfidence": 1
+  },
+  "Relatle.io": {
+    "name": "Relatle.io",
+    "website": "https://relatle.io",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "music"
+    ],
+    "userInput": "Pick",
+    "description": "Get from one musical artist to another by linking through related artists.",
+    "userInputConfidence": 1
+  },
+  "RhymeTime": {
+    "name": "RhymeTime",
+    "website": "https://www.rhymetime.co",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the three words that all rhyme.",
+    "userInputConfidence": 1
+  },
+  "Rivadle": {
+    "name": "Rivadle",
+    "website": "https://rivadle.net",
+    "releaseYear": "2025",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "A bunch of daily games where you guess the character from Marvel Rivals.",
+    "userInputConfidence": 0.5
+  },
+  "Rogule": {
+    "name": "Rogule",
+    "website": "https://rogule.com/game.html",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "roguelike"
+    ],
+    "userInput": "Other",
+    "description": "A daily emoji dungeon crawler roguelike.",
+    "userInputConfidence": 1
+  },
+  "Rotaboxes": {
+    "name": "Rotaboxes",
+    "website": "https://rotaboxes.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "pictures"
+    ],
+    "userInput": "Word",
+    "description": "Rotate all the tiles into their correct orientation to reveal today's picture.",
+    "userInputConfidence": 1
+  },
+  "Runedle": {
+    "name": "Runedle",
+    "website": "https://runedle.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess today's Runescape NPC.",
+    "userInputConfidence": 1
+  },
+  "Satle": {
+    "name": "Satle",
+    "website": "https://satle.ca",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography",
+      "maps",
+      "pictures"
+    ],
+    "userInput": "Word",
+    "description": "Guess the city given a satellite image, zooming out after each guess.",
+    "userInputConfidence": 1
+  },
+  "Scramble": {
+    "name": "Scramble",
+    "website": "https://playscramble.vercel.app/?daily=1",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "logic",
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess as many valid words as possible for each row of a scrambled grid of letters.",
+    "userInputConfidence": 0.86
+  },
+  "Searchle": {
+    "name": "Searchle",
+    "website": "https://searchle.net",
+    "releaseYear": "2011",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the secret word of the day by completing the Google search prompt.",
+    "userInputConfidence": 1
+  },
+  "Sedecordle": {
+    "name": "Sedecordle",
+    "website": "https://sedecordle.com",
+    "releaseYear": "2022",
+    "maxAttempts": 21,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve 16 wordles at the same time. You have 21 guesses.",
+    "userInputConfidence": 0.67
+  },
+  "Semantle": {
+    "name": "Semantle",
+    "website": "https://semantle.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess words to see how close they are to the secret word semantically, eventually guessing the secret word.",
+    "userInputConfidence": 1
+  },
+  "Sequences": {
+    "name": "Sequences",
+    "website": "https://www.dailyfastgames.com/sequences",
+    "releaseYear": "2025",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic",
+      "math",
+      "numbers"
+    ],
+    "userInput": "Word",
+    "description": "Guess the next number in today's sequence.",
+    "userInputConfidence": 0.75
+  },
+  "SexagintaQuattuordle": {
+    "name": "SexagintaQuattuordle",
+    "website": "https://64ordle.au/?mode=daily",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve 64 Wordle puzzles at the same time.",
+    "userInputConfidence": 0.75
+  },
+  "Shaple": {
+    "name": "Shaple",
+    "website": "https://swag.github.io/shaple",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "visual"
+    ],
+    "userInput": "Pick",
+    "description": "Choose the shape that matches the top shape.",
+    "userInputConfidence": 1
+  },
+  "ShikakuoftheDay": {
+    "name": "ShikakuoftheDay",
+    "website": "https://shikakuofthe.day",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "archive",
+      "logic",
+      "visual"
+    ],
+    "userInput": "Number",
+    "description": "5 daily Shikaku puzzles where you partition a grid into rectangles whose areas match the number inside them.",
+    "userInputConfidence": 1
+  },
+  "Smashdle": {
+    "name": "Smashdle",
+    "website": "https://smashdle.net",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "A bunch of daily games where you guess the character from Super Smash Bros.",
+    "userInputConfidence": 0.5
+  },
+  "Songle": {
+    "name": "Songle",
+    "website": "https://histordle.com/songle",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "music",
+      "time"
+    ],
+    "userInput": "Word",
+    "description": "Guess the year given three songs that were released that year.",
+    "userInputConfidence": 1
+  },
+  "Songless": {
+    "name": "Songless",
+    "website": "https://lessgames.com/songless",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the song from listening to small parts of it.",
+    "userInputConfidence": 1
+  },
+  "Sorted": {
+    "name": "Sorted",
+    "website": "https://puzzles-prod.telegraph.co.uk/sorted/index.html",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Trivia",
+    "tags": [
+      "trivia"
+    ],
+    "userInput": "Drag and Drop",
+    "description": "Place the items in the correct order, 3 new rounds everyday.",
+    "userInputConfidence": 1
+  },
+  "Soulsborndle": {
+    "name": "Soulsborndle",
+    "website": "https://malthesers.github.io/soulsborndle",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess bosses from the Soulsborne games by their health, souls, weaknesses and resistances. For fans of Elden Ring, Dark Souls, Demon Souls, and Bloodborne.",
+    "userInputConfidence": 1
+  },
+  "Spaceword": {
+    "name": "Spaceword",
+    "website": "https://spaceword.org",
+    "releaseYear": "2025",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Create crosswords using all letters, using as little space as possible.",
+    "userInputConfidence": 0.6
+  },
+  "SpellBee": {
+    "name": "SpellBee",
+    "website": "https://www.spell-bee.com/game-daily.html",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Create words using the given 7 letters. Each word must contain the center letter.",
+    "userInputConfidence": 0.71
+  },
+  "Spellcheck": {
+    "name": "Spellcheck",
+    "website": "https://spellcheck.xyz",
+    "releaseYear": "2021",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "audio",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Spell the words correctly after listening to them.",
+    "userInputConfidence": 1
+  },
+  "Spellie": {
+    "name": "Spellie",
+    "website": "https://spelliegame.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Wordle for young spellers with 3 difficulty modes.",
+    "userInputConfidence": 1
+  },
+  "SpellingBee": {
+    "name": "SpellingBee",
+    "website": "https://spellsbee.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Given 7 letters, make as many words as you can that contain the center letter. Same as NYT Spelling Bee, which requires a subscription.",
+    "userInputConfidence": 0.71
+  },
+  "Spindle": {
+    "name": "Spindle",
+    "website": "https://playspindle.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Rearrange the grid of letters so that the target word is spelled out. Rearranging is done by spinning words.",
+    "userInputConfidence": 0.5
+  },
+  "Spotle": {
+    "name": "Spotle",
+    "website": "https://spotle.io",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the music artist in 10 tries, gaining new information based on each guess.",
+    "userInputConfidence": 1
+  },
+  "Squardle": {
+    "name": "Squardle",
+    "website": "https://fubargames.se/squardle",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "A complex Wordle variant where your guesses count in two directions and cycle between three positions.",
+    "userInputConfidence": 0.8
+  },
+  "Squaredle": {
+    "name": "Squaredle",
+    "website": "https://squaredle.app",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Find all the hidden words in a grid by connecting letters horizontally, vertically, or diagonally. Two puzzles each day.",
+    "userInputConfidence": 0.6
+  },
+  "Squares": {
+    "name": "Squares",
+    "website": "https://squares.org",
+    "releaseYear": "2001",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Find all of the words in this daily Boggle game.",
+    "userInputConfidence": 0.67
+  },
+  "Squareword": {
+    "name": "Squareword",
+    "website": "https://squareword.org",
+    "releaseYear": "2013",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess 5-letter words to uncover the square of words both horizontally and vertically.",
+    "userInputConfidence": 0.83
+  },
+  "Squeezy": {
+    "name": "Squeezy",
+    "website": "https://imsqueezy.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Insert the given letters into the given words to make new words and reveal the secret word, phrase, or name.",
+    "userInputConfidence": 0.86
+  },
+  "SquirdleDaily": {
+    "name": "SquirdleDaily",
+    "website": "https://squirdle.fireblend.com/daily.html",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess today's pokemon within 9 guesses.",
+    "userInputConfidence": 1
+  },
+  "Stacked": {
+    "name": "Stacked",
+    "website": "https://stacked.clevergoat.com",
+    "releaseYear": "2025",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Find groups of different sizes that share something in common.",
+    "userInputConfidence": 0.5
+  },
+  "Stackle": {
+    "name": "Stackle",
+    "website": "https://www.stackle.fun",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Build the tallest possible stack of words, swapping out one letter and scrambling the rest with each new word.",
+    "userInputConfidence": 0.8
+  },
+  "Statele": {
+    "name": "Statele",
+    "website": "https://statele.teuteuf.fr",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography",
+      "maps",
+      "usa"
+    ],
+    "userInput": "Word",
+    "description": "Guess the US State by its outline on the map.",
+    "userInputConfidence": 1
+  },
+  "Stepdle": {
+    "name": "Stepdle",
+    "website": "https://www.stepdle.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve 4 Wordle puzzles, one at a time, each word one letter longer than the last. You have 20 total guesses.",
+    "userInputConfidence": 0.62
+  },
+  "SummitGame": {
+    "name": "SummitGame",
+    "website": "https://summit-puzzle.me",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "With one clue to get you started, find the 5 interconnected words to complete the summit in the shortest time.",
+    "userInputConfidence": 0.75
+  },
+  "Summle": {
+    "name": "Summle",
+    "website": "https://summle.net",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "math",
+      "numbers"
+    ],
+    "userInput": "Number",
+    "description": "Reach the target number using the given numbers and operations. Includes a junior mode and hard mode.",
+    "userInputConfidence": 1
+  },
+  "Sumplete": {
+    "name": "Sumplete",
+    "website": "https://sumplete.com/daily",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic",
+      "math",
+      "numbers"
+    ],
+    "userInput": "Number",
+    "description": "Delete numbers so that each row and column adds up to their target number.",
+    "userInputConfidence": 1
+  },
+  "Survivle": {
+    "name": "Survivle",
+    "website": "https://lazyguyy.github.io/survivle",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Try to lose the Wordle game by guessing 7 or more times, but you must utilize all gained information for each guess.",
+    "userInputConfidence": 1
+  },
+  "Syllacrostic": {
+    "name": "Syllacrostic",
+    "website": "https://www.syllacrostic.com/daily",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Combine syllables to solve the clues.",
+    "userInputConfidence": 0.5
+  },
+  "Symble": {
+    "name": "Symble",
+    "website": "https://www.symble.app",
+    "releaseYear": "2021",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "logic",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "A Wordle variant in which each game includes 3 randomly generated symbols, each meaning something different.",
+    "userInputConfidence": 1
+  },
+  "Synthmaze": {
+    "name": "Synthmaze",
+    "website": "https://synthmaze.heliante.io/#/daily",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic"
+    ],
+    "userInput": "Other",
+    "description": "Swap tiles in the maze so that the rocket reaches the exit.",
+    "userInputConfidence": 1
+  },
+  "Terradle": {
+    "name": "Terradle",
+    "website": "https://www.terradle.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess today's weapon from the game Terraria.",
+    "userInputConfidence": 1
+  },
+  "TheDailyBurgle": {
+    "name": "TheDailyBurgle",
+    "website": "https://www.thedailyburgle.app",
+    "releaseYear": "2025",
+    "maxAttempts": 6,
+    "category": "Movies/TV",
+    "tags": [
+      "movies"
+    ],
+    "userInput": "Word",
+    "description": "Burgle the vault by guessing movies whose plot descriptions contain words from the vault! By CineNerdle.",
+    "userInputConfidence": 0.67
+  },
+  "TheWikiGameDaily": {
+    "name": "TheWikiGameDaily",
+    "website": "https://www.thewikigamedaily.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "fast-paced",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Race from one Wikipedia page to the target page using as few links as possible",
+    "userInputConfidence": 1
+  },
+  "Thirdle": {
+    "name": "Thirdle",
+    "website": "https://thirdle.org",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve 3 Wordle puzzles crossed together.",
+    "userInputConfidence": 0.75
+  },
+  "Threepeat": {
+    "name": "Threepeat",
+    "website": "https://onelook.com/threepeat",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Complete three words with the same three letters, three rounds everyday.",
+    "userInputConfidence": 0.75
+  },
+  "Thrice": {
+    "name": "Thrice",
+    "website": "https://thrice.geekswhodrink.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Trivia",
+    "tags": [
+      "trivia"
+    ],
+    "userInput": "Word",
+    "description": "Answer today's 5 trivia questions, each from a different category.",
+    "userInputConfidence": 1
+  },
+  "Tightrope": {
+    "name": "Tightrope",
+    "website": "https://www.britannica.com/quiz/tightrope",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Trivia",
+    "tags": [
+      "fast-paced",
+      "trivia"
+    ],
+    "userInput": "Multiple Choice",
+    "description": "Answer 9 timed trivia questions without running out of lives!",
+    "userInputConfidence": 1
+  },
+  "Timeguessr": {
+    "name": "Timeguessr",
+    "website": "https://timeguessr.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography",
+      "history",
+      "maps",
+      "pictures",
+      "time"
+    ],
+    "userInput": "Word",
+    "description": "Guess the right time and location of each historical photo.",
+    "userInputConfidence": 1
+  },
+  "Toddle": {
+    "name": "Toddle",
+    "website": "https://toddle-puzzle.web.app",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the secret word or phrase, starting with a 4-letter word whose letters appear in the same order.",
+    "userInputConfidence": 0.75
+  },
+  "Top5": {
+    "name": "Top5",
+    "website": "https://top5-game.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Trivia",
+    "tags": [
+      "trivia"
+    ],
+    "userInput": "Word",
+    "description": "Guess the top 5 items of today's category.",
+    "userInputConfidence": 1
+  },
+  "Toppled": {
+    "name": "Toppled",
+    "website": "https://bythomas.co.uk/toppled",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Topple the letter wall by finding four 5-letter words",
+    "userInputConfidence": 0.67
+  },
+  "Travle": {
+    "name": "Travle",
+    "website": "https://travle.earth",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography",
+      "maps"
+    ],
+    "userInput": "Word",
+    "description": "Connect the starting country to the ending country by naming countries in between them.",
+    "userInputConfidence": 0
+  },
+  "Triplets": {
+    "name": "Triplets",
+    "website": "https://www.tripletgame.com",
+    "releaseYear": "2013",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "fast-paced",
+      "logic",
+      "visual"
+    ],
+    "userInput": "Pick",
+    "description": "Find as many triplets as you can in 3 minutes. A triplet is a set of 3 cards whose attributes are either all the same or all different.",
+    "userInputConfidence": 1
+  },
+  "TwoferGoofer": {
+    "name": "TwoferGoofer",
+    "website": "https://twofergoofer.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the pair of rhyming words that form the given nonsensical phrase.",
+    "userInputConfidence": 1
+  },
+  "Unolingo": {
+    "name": "Unolingo",
+    "website": "https://games.usatoday.com/games/uclick-unolingo",
+    "releaseYear": "2021",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve the clueless crossword by using each letter of the English alphabet exactly once.",
+    "userInputConfidence": 0.5
+  },
+  "Unzoomed": {
+    "name": "Unzoomed",
+    "website": "https://www.unzoomed.com/en",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography"
+    ],
+    "userInput": "Word",
+    "description": "Guess the city based on the given satellite image.",
+    "userInputConfidence": 1
+  },
+  "Valodle": {
+    "name": "Valodle",
+    "website": "https://valodle.eu",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Test your Valorant knowledge in these daily games.",
+    "userInputConfidence": 1
+  },
+  "Verticle": {
+    "name": "Verticle",
+    "website": "https://verticle.netlify.app",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "A vertical variant of Wordle.",
+    "userInputConfidence": 1
+  },
+  "VideoGameBandle": {
+    "name": "VideoGameBandle",
+    "website": "https://www.vgbandle.app",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Music",
+    "tags": [
+      "music"
+    ],
+    "userInput": "Word",
+    "description": "Guess the video game and song played by the MIDI band",
+    "userInputConfidence": 1
+  },
+  "Videopuzzle": {
+    "name": "Videopuzzle",
+    "website": "https://videopuzzle.org",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Miscellaneous",
+    "tags": [
+      "visual"
+    ],
+    "userInput": "Word",
+    "description": "Swap tiles to unscramble the puzzle of a looping short video.",
+    "userInputConfidence": 0.5
+  },
+  "VowelPlay": {
+    "name": "VowelPlay",
+    "website": "https://bythomas.co.uk/vowelplay",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the words with their vowels removed.",
+    "userInputConfidence": 1
+  },
+  "VoxDailyCrossword": {
+    "name": "VoxDailyCrossword",
+    "website": "https://www.vox.com/21523212/crossword-puzzles-free-daily-printable",
+    "releaseYear": "2020",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "A free daily crossword from Vox, skips Sundays.",
+    "userInputConfidence": 1
+  },
+  "Waffle": {
+    "name": "Waffle",
+    "website": "https://wafflegame.net/daily",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Swap letters to create words both horizontally and vertically. Seems to have been made before Word Waffle.",
+    "userInputConfidence": 0.83
+  },
+  "Weaver": {
+    "name": "Weaver",
+    "website": "https://weavergame.org",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Weave your way from the start word to the end word, changing only one letter at a time.",
+    "userInputConfidence": 0.8
+  },
+  "Weddle": {
+    "name": "Weddle",
+    "website": "https://www.weddlegame.com",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Sport",
+    "tags": [
+      "football",
+      "sports"
+    ],
+    "userInput": "Word",
+    "description": "Guess the NFL player within 8 guesses.",
+    "userInputConfidence": 0.33
+  },
+  "Whentaken": {
+    "name": "Whentaken",
+    "website": "https://whentaken.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "archive",
+      "geography",
+      "time"
+    ],
+    "userInput": "Word",
+    "description": "Guess the year and location of the given photo.",
+    "userInputConfidence": 1
+  },
+  "WhentakenMovies": {
+    "name": "WhentakenMovies",
+    "website": "https://movies.whentaken.com",
+    "releaseYear": "2025",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography",
+      "movies",
+      "pictures",
+      "time"
+    ],
+    "userInput": "Word",
+    "description": "Guess where and when the given movie scene was filmed.",
+    "userInputConfidence": 0.67
+  },
+  "WhereintheUsaIsThis?": {
+    "name": "WhereintheUsaIsThis?",
+    "website": "https://pudding.cool/games/where",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography",
+      "maps",
+      "pictures",
+      "usa"
+    ],
+    "userInput": "Word",
+    "description": "Guess the location in the United States given 5 pictures of the same place, one at a time.",
+    "userInputConfidence": 0.5
+  },
+  "Wheretaken": {
+    "name": "Wheretaken",
+    "website": "https://wheretaken.teuteuf.fr",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography",
+      "pictures"
+    ],
+    "userInput": "Word",
+    "description": "Guess the Country/Region in which the photo was taken.",
+    "userInputConfidence": 1
+  },
+  "WheretakenUsa": {
+    "name": "WheretakenUsa",
+    "website": "https://wheretakenusa.teuteuf.fr",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography",
+      "pictures",
+      "usa"
+    ],
+    "userInput": "Word",
+    "description": "Guess the US State in which the photo was taken.",
+    "userInputConfidence": 1
+  },
+  "Worchle": {
+    "name": "Worchle",
+    "website": "https://www.worchle.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Find the keyword in the word search before running out of guesses. Three increasingly difficult puzzles everyday.",
+    "userInputConfidence": 0.67
+  },
+  "WordBox": {
+    "name": "WordBox",
+    "website": "https://wordbox.game",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Swap letters until each row and column forms a valid word.",
+    "userInputConfidence": 0.75
+  },
+  "WordChain": {
+    "name": "WordChain",
+    "website": "https://wordnerd.co/wordchain",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Connect the two unrelated words by adding a chain of related words between them.",
+    "userInputConfidence": 1
+  },
+  "WordChase": {
+    "name": "WordChase",
+    "website": "https://wordchase.semantle.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the secret word within 5 tries, receiving a new word as a hint before each guess.",
+    "userInputConfidence": 1
+  },
+  "WordConnection": {
+    "name": "WordConnection",
+    "website": "https://www.thewordfinder.com/word-connection",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Link a chain of 4 relevant words together.",
+    "userInputConfidence": 1
+  },
+  "WordGrid": {
+    "name": "WordGrid",
+    "website": "https://wordgrid.clevergoat.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Fill the cells in the grid with words matching the criteria of both their row and column",
+    "userInputConfidence": 1
+  },
+  "WordPeaks": {
+    "name": "WordPeaks",
+    "website": "https://vegeta897.github.io/word-peaks",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the word in 6 tries. After each guess, it will show whether each letter occurs earlier or later in the alphabet compared to the corresponding letter in the secret word.",
+    "userInputConfidence": 0.73
+  },
+  "WordWaffle": {
+    "name": "WordWaffle",
+    "website": "https://wordwaffle.org",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Swap letters to create words both horizontally and vertically.",
+    "userInputConfidence": 0.8
+  },
+  "Word500": {
+    "name": "Word500",
+    "website": "https://word500.com/game?mode=daily",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess the word in 8 tries, but you're only given how many guessed letters are in the right place or wrong place.",
+    "userInputConfidence": 0.67
+  },
+  "Wordall": {
+    "name": "Wordall",
+    "website": "https://wordall.xyz",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Guess all of the Wordle words, given the starting clues.",
+    "userInputConfidence": 1
+  },
+  "Wordga": {
+    "name": "Wordga",
+    "website": "https://wordga.com/daily",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Find as many 4+ letter words using today's letters.",
+    "userInputConfidence": 0.57
+  },
+  "Wordiply": {
+    "name": "Wordiply",
+    "website": "https://www.wordiply.com",
+    "releaseYear": "2013",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Try to make the longest word that contains the given word in 5 tries or less.",
+    "userInputConfidence": 1
+  },
+  "Wordistance": {
+    "name": "Wordistance",
+    "website": "https://wordistance.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "logic",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Keep guessing words until you find the mystery word, each guess revealing the distance between the guessed word and mystery word.",
+    "userInputConfidence": 0.89
+  },
+  "Wordless": {
+    "name": "Wordless",
+    "website": "https://lessgames.com/wordless",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Solve Wordle puzzles of various sizes.",
+    "userInputConfidence": 0.75
+  },
+  "Wordlinx": {
+    "name": "Wordlinx",
+    "website": "https://sacsgames.com/wordlinx/#/todaydaily",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "tags": [
+      "words"
+    ],
+    "userInput": "Word",
+    "description": "Using a single word as a clue, guess the 4 related words by dragging and dropping letters into the empty spaces.",
+    "userInputConfidence": 0.83
+  },
+  "Worldle": {
+    "name": "Worldle",
+    "website": "https://worldle.teuteuf.fr",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "geography",
+      "maps"
+    ],
+    "userInput": "Word",
+    "description": "Guess the country by its shape on the world map.",
+    "userInputConfidence": 1
+  },
+  "Xdle": {
+    "name": "Xdle",
+    "website": "https://zaratustra.itch.io/xdle",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "math",
+      "numbers"
+    ],
+    "userInput": "Word",
+    "description": "Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.",
+    "userInputConfidence": 0.67
+  },
+  "Yeardle": {
+    "name": "Yeardle",
+    "website": "https://histordle.com/yeardle",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Geography/History",
+    "tags": [
+      "history",
+      "time"
+    ],
+    "userInput": "Word",
+    "description": "Guess the year based on the given historical events of that year.",
+    "userInputConfidence": 1
+  },
+  "ZakuChess": {
+    "name": "ZakuChess",
+    "website": "https://zakuchess.com",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic"
+    ],
+    "userInput": "Letter",
+    "description": "A challenging chess game with fantasy pixel-art characters. Note that the chess board is rotated 90 degrees clockwise.",
+    "userInputConfidence": 1
+  },
+  "ZebraPuzzles": {
+    "name": "ZebraPuzzles",
+    "website": "https://www.zebrapuzzles.com",
+    "releaseYear": "2018",
+    "maxAttempts": 6,
+    "category": "Math/Logic",
+    "tags": [
+      "logic"
+    ],
+    "userInput": "Multiple Choice",
+    "description": "A collection of 5 daily logic puzzles of increasing difficulty.",
+    "userInputConfidence": 1
+  },
+  "Zeldadle": {
+    "name": "Zeldadle",
+    "website": "https://www.zeldadle.net",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Test your Zelda knowledge in these daily games.",
+    "userInputConfidence": 1
+  },
+  "Zoomout": {
+    "name": "Zoomout",
+    "website": "https://zoomout.videoludid.com",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Video Game",
+    "tags": [
+      "video games"
+    ],
+    "userInput": "Word",
+    "description": "Guess the video game from the zoomed-in screenshot.",
+    "userInputConfidence": 1
+  },
+  "Sweardle": {
+    "name": "Sweardle",
+    "website": "https://sweardle.com/",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Woodle": {
+    "name": "Woodle",
+    "website": "https://play.woodle.today/",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Revertle": {
+    "name": "Revertle",
+    "website": "https://www.puppetsquid.com/revertle/",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Word",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Moistle": {
+    "name": "Moistle",
+    "website": "https://samperisi.com/moistle/",
+    "releaseYear": "2024",
+    "maxAttempts": 6,
+    "category": "Word",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Reversle": {
+    "name": "Reversle",
+    "website": "https://reversle.net/",
+    "releaseYear": "2022",
+    "maxAttempts": -1,
+    "category": "Word",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Heardle": {
+    "name": "Heardle",
+    "website": "https://heardlewordle.io/",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Music",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Taylordle": {
+    "name": "Taylordle",
+    "website": "https://taylordle.org/",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Music",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Swiftle": {
+    "name": "Swiftle",
+    "website": "https://www.techyonic.co/swiftle",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Music",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Byrdle": {
+    "name": "Byrdle",
+    "website": "https://www.byrdle.net/",
+    "releaseYear": "2022",
+    "maxAttempts": 7,
+    "category": "Music",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Citydle": {
+    "name": "Citydle",
+    "website": "https://citydle.com/",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Geography",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Mathle": {
+    "name": "Mathle",
+    "website": "https://mathle.net/",
+    "releaseYear": "2022",
+    "maxAttempts": 5,
+    "category": "Math",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "LordleoftheRings": {
+    "name": "LordleoftheRings",
+    "website": "https://lordle.digitaltolkien.com/",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Movies",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Swordle": {
+    "name": "Swordle",
+    "website": "https://wordle.starwars.guide/",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Movies",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "StarWordle": {
+    "name": "StarWordle",
+    "website": "https://www.starwordle.com/",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Movies",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Squirdle": {
+    "name": "Squirdle",
+    "website": "https://squirdle.fireblend.com/",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Games",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Poetl": {
+    "name": "Poetl",
+    "website": "https://poeltl.nbpa.com/landing-page",
+    "releaseYear": "2022",
+    "maxAttempts": 8,
+    "category": "Sports",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Pickle": {
+    "name": "Pickle",
+    "website": "https://picklewordle.com/",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Sports",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Cfbordle": {
+    "name": "Cfbordle",
+    "website": "https://cfbordle.redditcfb.com/",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Sports",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "FootballWordle": {
+    "name": "FootballWordle",
+    "website": "https://footballwordle.com/",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Sports",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "WhoAreYa?": {
+    "name": "WhoAreYa?",
+    "website": "https://playfootball.games/who-are-ya",
+    "releaseYear": "2022",
+    "maxAttempts": 8,
+    "category": "Sports",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Learnle": {
+    "name": "Learnle",
+    "website": "https://learnle.net/",
+    "releaseYear": "2022",
+    "maxAttempts": 5,
+    "category": "Trivia",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Hexle": {
+    "name": "Hexle",
+    "website": "https://frankljin.github.io/hexle/  ",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Other",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Tradle": {
+    "name": "Tradle",
+    "website": "https://games.oec.world/en/tradle/",
+    "releaseYear": "2023",
+    "maxAttempts": 6,
+    "category": "Economics",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "GuessThe.game": {
+    "name": "GuessThe.game",
+    "website": "https://guessthe.game/",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Games",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  },
+  "Gamedle": {
+    "name": "Gamedle",
+    "website": "https://www.gamedle.wtf/",
+    "releaseYear": "2022",
+    "maxAttempts": 6,
+    "category": "Games",
+    "userInput": "Word",
+    "userInputConfidence": 0
+  }
 }
